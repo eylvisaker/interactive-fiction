@@ -10,6 +10,7 @@ Release along with interpreter and the introductory booklet.
 Use normal blank lines.]
 
 Include Conversation Package by Eric Eve.
+Include Spellcasting by Jim Aikin. 
 
 To say /p: say "[paragraph break]".
 To say /l: say "[line break]".
@@ -2049,7 +2050,7 @@ Instead of going when the location is Ocean:
 
 Part 5 - Regions
 
-The vast ocean is an outdoors region. [Ocean 0, Ocean 1, ocean 2, ocean 3, ocean 4, ocean 5, ocean 6, ocean 7, ocean 8, ocean 9, ocean a, ocean b, ocean c, ocean d,] beach s, beach n, stream mouth, near land, town beach s, town beach n are in the vast ocean.
+The vast ocean is an outdoors region. beach s, beach n, stream mouth, near land, town beach s, town beach n are in the vast ocean.
 
 The great ocean is a backdrop in the vast ocean. The printed name is "ocean". The description is "It's a vast ocean, and it looks rather unfriendly." Understand "water" as the great ocean.
 
@@ -2072,21 +2073,21 @@ Inside the sarcophagus you see [list of things in the sarcophagus with indefinit
 Instead of opening the sarcophagus when the player is not wearing the power bracelet:
 	say "You push on it with all your might, but the stone lid is far too heavy."
 Report opening the sarcophagus:
-	say "Thanks to your supernatural strength you are able to push the stone lid off the sarcophagus without any trouble. The force of the lid hitting the ground causes it to crack.
-	
-Inside the sarcophagus you see [list of things in the sarcophagus with indefinite articles].";
-	now the description of the stone lid is "The force of its impact on the ground has cracked the lid of the sarcophagus into two separate pieces.";
+	say "Thanks to your supernatural strength you are able to push the stone lid off the sarcophagus without any trouble. The force of the lid hitting the ground causes it to crack. [/p]Inside the sarcophagus you see [list of things in the sarcophagus with indefinite articles].";
 	now the sarcophagus is unopenable;
-	stop the action.	
+	stop the action.
 	
-The stone lid is scenery in the crypt. The description is "It looks to be very heavy. It's probably three inches thick of solid stone."
+Instead of closing the open sarcophagus:
+	say "The lid is smashed, and there is no way to close it now.";
+	
+The stone lid is scenery in the crypt. The description is "The lid of the sarcophagus looks to be very heavy. It's probably three inches thick of solid stone. [if the sarcophagus is open]The force of its impact on the ground has cracked the lid of the sarcophagus into two separate pieces."
 Instead of taking the stone lid:
 	if the player is wearing the power bracelet:
 		say "It's far to bulky to carry around.";
 	otherwise:
 		say "That's way too heavy."
 		
-The royal skeleton is a corpse inside the sarcophagus. The description is "The skeleton is covered in tattered clothing, which has mostly decayed. What is left of its clothing suggests that this person was once of noble blood. [If the jeweled crown is in the sarcophagus]Of course, the presence of the crown inside the sarcophagus would indicate that too.[end if]". The detachable part of the royal skeleton is a dog toy called the royal femur. The initial-durability of the royal femur is 10000. The weight of the royal femur is 8.
+The royal skeleton is a corpse inside the sarcophagus. The description is "The skeleton is covered in tattered clothing, which has mostly decayed. What is left of its clothing seems to indicate that this person was once of noble blood. [If the jeweled crown is in the sarcophagus]Of course, the crown that's in there also suggests that.[end if]". The detachable part of the royal skeleton is a dog toy called the royal femur. The initial-durability of the royal femur is 10000. The weight of the royal femur is 8.
 The jeweled crown is inside the sarcophagus. 
 
 Part 2 - Treasury
@@ -2097,17 +2098,20 @@ Does the player mean doing something with the broken jar bits: it is very unlike
 Does the player mean doing something with the bits of paper: it is very unlikely.
 
 Treasury shelves is scenery in Treasury.
-A ceramic jar is an open unopenable container on treasury shelves. The description is "It's a crudely made piece of ceramic pottery."
+
+A ceramic jar is an open unopenable container in treasury. "Tipped over on the shelves, there is a ceramic jar which appears to be an intact." The description is "It appears to be carefully crafted, and has several pictorial designs painted onto its sides." The carrying capacity of the jar is 2.
+
+The broken ceramic jar is a thing. The description is "This appears to be a recently smashed ceramic jar." It is fixed in place. Instead of taking the broken jar, say "Carrying that around won't do any good."
 
 Part 3 - Pit rooms
 
 Pit Room is south of the crypt. The printed name is "Pit Room (north side)". "You are in a room with a deep gaping pit. The pit is rectangular in shape, running east-west and cuts the room in two. The air here is significantly cooler than in the rest of the mausoleum. To the south across the pit is the other half of the room, and to the north is the passage back to the crypt." It is dark.
-Every turn when the location is the pit room:
+Every turn when the location is the pit room and the chosen quest is not lich-quest:
 	if the player carries the brass lantern and the brass lantern is lit and a random chance of 1 in 12 succeeds:
 		say "A black wind passes through the room, sending a shiver down your spine. Your lantern goes out.";
 		now the lantern is switched off;
 		now the lantern is unlit;
-	otherwise if a random chance of 1 in 3 succeeds:
+	otherwise if a random chance of 1 in 5 succeeds:
 		say "A spooky voice whispers, 'turn back, mortal creature.' You feel chilled."
 
 Before going south in the pit room:
@@ -2134,9 +2138,17 @@ Before going north in pit room s:
 	
 There is a backdrop called pit in Pit room and Pit room s. The description is "It's a very deep pit, running east-west cutting the room in two. It even cuts through the walls. You can't see the bottom, but it looks narrow enough to jump across it."
 
+Instead of jumping into the pit, try entering the pit.
 Instead of entering the pit:
-	say "It turns out the pit isn't bottomless, but it *is* a very long way to the bottom.";
-	end the game in death.
+	if the player is carrying Atari:
+		say "If you're going to commit suicide, at least have the decency not to bring the dog with you!";
+	otherwise if the player is wearing the crown:
+		say "It turns out the pit isn't bottomless, but it *is* a very long way to the bottom. But for some reason, you manage to land unharmed.";
+		move the player to bottom of the pit;
+	otherwise:
+		say "It turns out the pit isn't bottomless, but it *is* a very long way to the bottom.";
+		end the game in death.
+		
 Instead of jumping over the pit in pit room:
 	try going south.
 Instead of jumping over the pit in pit room s:
@@ -2147,8 +2159,24 @@ Instead of inserting something into the pit:
 	
 Instead of throwing something at the pit:
 	say "You toss [the noun] into the pit. You wait a while, but you never hear it hit the bottom. Well, hopefully you didn't need [the noun] for anything.";
-	remove the noun from play.
+	if the noun is the ceramic jar:
+		move the broken jar to the Bottom of the Pit;
+	otherwise:
+		move the noun to Bottom of the Pit.
 	
+Bottom of the Pit is a room. "You are at the bottom of a deep pit, shaped like a long rectangle. The walls around you are steep and smooth; there is no chance of climbing back up. There are various bones strewn about here." 
+
+A piece of parchment is a piece of paper in bottom of the pit. "An old withered piece of parchment paper lies on the floor here." The description is "It's a very old piece of parchment paper. The writing on it is delicate, and looks as though it was done with a fountain pen." 
+The text description is "The text reads: [/p]The crown and scepter are far too powerful to fall into the wrong hands. As I have no son, I fear that those who follow in my footsteps may not share my vision for this country. As such, I have had a fake crown crafted for my successor and decided that the true crown is to be buried with me. The scepter has already been given to my trusted friend and advisor Captain Neckbeard, so that he may hide it in a far away land. I will write here, as the only copy, the means to operate the scepter, in hopes that one day a true ruler of the land may emerge and use it to lead the people into the prosperity they deserve. [/p]The operation of the scepter is simple. One need only point it at one's enemy and utter the words 'klaatu barada nikto' and the enemy will be incinerated. Take care however, that the crown is worn at the same time, otherwise the feedback from the scepter will be too much to stand. [/p]It is with great regret that I write this. I was not able to achieve the prosperity of my kingdom that I had hoped for. The medics tell me nothing can be done about debilitating disease I have contracted. No magic seems to help, and even the crown does not stop the effects. I am nearing my end. I am only thankful that I shall not live to see my kingdom undone by those bickering fools who vie for my throne. I shudder to think of the chaos that will ensue once I am gone and the throne is left without an heir. [/p]His Majesty, [/l]Dalton";
+
+klaatu barada nikto is a magic-spell.
+
+After reading the parchment:
+	now klaatu barada nikto is learned;
+	continue the action.
+
+Index map with bottom of the pit mapped east of pit room s.
+
 Part 4 - Lich Room
 
 Undead Throne Room is a room. "You are in a large room with a throne[if the lich is in the location] on which a strange figure sits,[otherwise] at the end of the room opposite the stairs.[end if] [if the lich is in the location]The air here is freezing. You're not sure if it's really the temperature or the presence of the shrouded figure on the throne.[end if]"
@@ -2231,4 +2259,5 @@ Atari is in west field.
 
 When play begins:
 	say "It's the strangest thing. You came to stay at your grandfather's house for a month during summer vacation, and two weeks ago while you were out watering the lawn your grandfather disappeared from inside the house and you haven't seen him since. The house is not large, and there is no back door. He's a fairly fit individual for his age, but there is no real reason to suspect that he went out through a window. You filed a missing persons report with the local police department but they have not managed to come up with anything yet either. While wandering through the house, you managed to find a trap door under the stairs, and upon entering you find yourself in..."
+	
 	

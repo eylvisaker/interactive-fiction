@@ -1,22 +1,22 @@
 ! Blurb file created by Inform build 6G60
 
-status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "F:\Inform\Ultimate.inform\Build\StatusCblorb.html"
+status "/usr/share/gnome-inform7/Extensions/Reserved/CblorbModel.html" "/home/eylvisaker/IF/Ultimate.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "F:\Inform\Ultimate.inform"
-release to "F:\Inform\Ultimate Materials\Release"
+project folder "/home/eylvisaker/IF/Ultimate.inform"
+release to "/home/eylvisaker/IF/Ultimate Materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Ultimate Text Adventure.gblorb"
-storyfile "F:\Inform\Ultimate.inform\Build\output.ulx" include
-ifiction "F:\Inform\Ultimate.inform\Metadata.iFiction" include
-cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
-picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
-release file "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Cover.jpg"
-release file "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Small Cover.jpg"
+storyfile "/home/eylvisaker/IF/Ultimate.inform/Build/output.ulx" include
+ifiction "/home/eylvisaker/IF/Ultimate.inform/Metadata.iFiction" include
+cover "/usr/share/gnome-inform7/Extensions/Reserved/DefaultCover.jpg"
+picture 1 "/usr/share/gnome-inform7/Extensions/Reserved/DefaultCover.jpg"
+release file "/usr/share/gnome-inform7/Extensions/Reserved/Cover.jpg"
+release file "/usr/share/gnome-inform7/Extensions/Reserved/Small Cover.jpg"
 
 ! Placeholder variables
 
@@ -29,22 +29,22 @@ placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
 
-auxiliary "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\IntroductionToIF.pdf" "Introduction to IF"
+auxiliary "/usr/share/gnome-inform7/Extensions/Reserved/IntroductionToIF.pdf" "Introduction to IF"
 
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "The Ultimate Text Adventure.gblorb.js"
-template path "F:\Inform\Ultimate Materials\Templates"
-template path "C:\Users\Erik\Documents\Inform\Templates"
-template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
+template path "/home/eylvisaker/IF/Ultimate Materials/Templates"
+template path "/home/eylvisaker/Inform/Templates"
+template path "/usr/share/gnome-inform7/Extensions/Reserved/Templates"
 interpreter "Quixe" "g"
-base64 "F:\Inform\Ultimate.inform\Build\output.ulx" to "F:\Inform\Ultimate Materials\Release\interpreter\The Ultimate Text Adventure.gblorb.js"
+base64 "/home/eylvisaker/IF/Ultimate.inform/Build/output.ulx" to "/home/eylvisaker/IF/Ultimate Materials/Release/interpreter/The Ultimate Text Adventure.gblorb.js"
 
 ! Website instructions
 
-template path "F:\Inform\Ultimate Materials\Templates"
-template path "C:\Users\Erik\Documents\Inform\Templates"
-template path "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\Templates"
+template path "/home/eylvisaker/IF/Ultimate Materials/Templates"
+template path "/home/eylvisaker/Inform/Templates"
+template path "/usr/share/gnome-inform7/Extensions/Reserved/Templates"
 css
 website "Standard"
 status instruction ||&nbsp;<a href="source:story.ni#line7"><img border=0 src=inform:/Reveal.png></a>||
