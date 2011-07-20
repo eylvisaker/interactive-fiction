@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>36325E31-CA5D-44E9-8E3C-F38F3E9EB472</ifid>
+            <format>zcode</format>
+        </identification>
+        <bibliographic>
+            <title>Castle of Spirits</title>
+            <author>Anthony Maro, converted to I7 by Erik Ylvisaker</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2011</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2011-07-05</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6G60</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6G60</generatorversion>
+            <originated>2011-07-05</originated>
+        </colophon>
+        <zcode>
+            <serial>110705</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6G60</compiler>
+        </zcode>
+    </story>
+</ifindex>

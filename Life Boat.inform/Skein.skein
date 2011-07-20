@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x07935290" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x079A26F0"/>
+  <item nodeId="node-0x07935290">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">HELP is available.&#x000A;&#x000A;Castle of Spirits&#x000A;An Interactive Fiction by Anthony Maro, converted to I7 by Erik Ylvisaker&#x000A;Release 1 / Serial number 110705 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Your cabin&#x000A;You sit within your room, contemplating what to do next. The doorway is in the east wall, but the furnishings are too enticing to leave.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;You can see a large bed here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x079353E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079353E0">
+    <command xml:space="preserve">push bed</command>
+    <result xml:space="preserve">You find a keycard.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079354C0"/>
+      <child nodeId="node-0x07935A70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079354C0">
+    <command xml:space="preserve">pull bed</command>
+    <result xml:space="preserve">Nothing obvious happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935530">
+    <command xml:space="preserve">take keycard</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079355A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079355A0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening cabin door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079356F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079356F0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the keycard)&#x000A;You unlock cabin door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935680">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening cabin door)&#x000A;&#x000A;Hallway&#x000A;You stand just outside your expensive cabin on the luxury liner. The hallway runs north-south with your cabin to the west. Sirens wail within the ship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935610">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passageway&#x000A;From here it is possible to go north, south, east, or west. To the south is the cargo bay, which is normally not pressurized.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935840">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Hallway&#x000A;You stand just outside your expensive cabin on the luxury liner. The hallway runs north-south with your cabin to the west. Sirens wail within the ship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079358B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079358B0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935920">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passageway&#x000A;From here it is possible to go north, south, east, or west. To the south is the cargo bay, which is normally not pressurized.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935990">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Engine room&#x000A;This is the master engine room. A shrill sound echoes from the northern crawlway. A rusted door exits to the south.&#x000A;&#x000A;You can see a hatch in the floor here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935A00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935A00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Engines&#x000A;Why did you do that? Was it not obvious that these are the engines? You have consequently incinerated yourself. Are you happy now?&#x000A;&#x000A;Better luck next time.&#x000A;&#x000A;&#x000A;&#x000A;    *** You have died ***&#x000A;&#x000A;&#x000A;In that game you scored 0 out of a possible 0, in 12 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x07935A70">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock cabin door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935AE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935AE0">
+    <command xml:space="preserve">keycard</command>
+    <result xml:space="preserve">(first taking the keycard)&#x000A;You unlock cabin door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935B50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935B50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening cabin door)&#x000A;&#x000A;Hallway&#x000A;You stand just outside your expensive cabin on the luxury liner. The hallway runs north-south with your cabin to the west. Sirens wail within the ship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935BC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935BC0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935C30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935C30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935D10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935D10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079357D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079357D0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Computer room&#x000A;Strewn about the floor of this computer room are broken memory crystals, apparently from the ship's main computer. A locked hatch is in the floor, and exits are north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935CA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935CA0">
+    <command xml:space="preserve">type something</command>
+    <result xml:space="preserve">The screen replies:&#x000A;Enter 1 to pressurize cargo.&#x000A;Enter 2 to activate LifeBoat.&#x000A;&#x000A;Enter your choice now -&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935DF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935DF0">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">OK.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935D80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935D80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bridge&#x000A;The bridge is in shambles! Someone has definitely sabotaged the ship. Are you getting worried yet? One exit leads north.&#x000A;&#x000A;You can see a bent crowbar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935760">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Computer room&#x000A;Strewn about the floor of this computer room are broken memory crystals, apparently from the ship's main computer. A locked hatch is in the floor, and exits are north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935E60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935E60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935ED0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935ED0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Cargo&#x000A;All of these crates contain cargo to be taken to your destination. A few might contain spare parts. Doors lead north and south.&#x000A;&#x000A;You can see a large crate (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935F40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935F40">
+    <command xml:space="preserve">open crate</command>
+    <result xml:space="preserve">The crate is sealed pretty good.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07935FB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07935FB0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936020"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936020">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Computer room&#x000A;Strewn about the floor of this computer room are broken memory crystals, apparently from the ship's main computer. A locked hatch is in the floor, and exits are north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936090"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936090">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bridge&#x000A;The bridge is in shambles! Someone has definitely sabotaged the ship. Are you getting worried yet? One exit leads north.&#x000A;&#x000A;You can see a bent crowbar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936100">
+    <command xml:space="preserve">take crowbar</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936170">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Computer room&#x000A;Strewn about the floor of this computer room are broken memory crystals, apparently from the ship's main computer. A locked hatch is in the floor, and exits are north and south.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079361E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079361E0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936250"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936250">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Cargo&#x000A;All of these crates contain cargo to be taken to your destination. A few might contain spare parts. Doors lead north and south.&#x000A;&#x000A;You can see a large crate (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079362C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079362C0">
+    <command xml:space="preserve">open crate</command>
+    <result xml:space="preserve">You find something!&#x000A;&#x000A;In the large crate is a small device.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936330"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936330">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bent crowbar&#x000A;  a keycard&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936480">
+    <command xml:space="preserve">open crate with crowbar</command>
+    <result xml:space="preserve">That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936410">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079363A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079363A0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079364F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079364F0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936560">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat&#x000A;The lifeboat is a little banged-up. Some parts seem to be missing. It is as if you are not wanted to leave!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079365D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079365D0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936640">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bent crowbar&#x000A;  a keycard&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079366B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079366B0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936720"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936720">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936790"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936790">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936800"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936800">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat&#x000A;The lifeboat is a little banged-up. Some parts seem to be missing. It is as if you are not wanted to leave!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936870"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936870">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079368E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079368E0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bent crowbar&#x000A;  a keycard&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936950"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936950">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079369C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079369C0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936A30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936A30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Hallway&#x000A;You stand just outside your expensive cabin on the luxury liner. The hallway runs north-south with your cabin to the west. Sirens wail within the ship.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936AA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936AA0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Your cabin&#x000A;You sit within your room, contemplating what to do next. The doorway is in the east wall, but the furnishings are too enticing to leave.&#x000A;&#x000A;You can see a large bed here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936B10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936B10">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Your cabin&#x000A;You sit within your room, contemplating what to do next. The doorway is in the east wall, but the furnishings are too enticing to leave.&#x000A;&#x000A;You can see a large bed here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936B80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936B80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Hallway&#x000A;You stand just outside your expensive cabin on the luxury liner. The hallway runs north-south with your cabin to the west. Sirens wail within the ship.&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936BF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936BF0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936C60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936C60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Computer room&#x000A;Strewn about the floor of this computer room are broken memory crystals, apparently from the ship's main computer. A locked hatch is in the floor, and exits are north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936CD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936CD0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bridge&#x000A;The bridge is in shambles! Someone has definitely sabotaged the ship. Are you getting worried yet? One exit leads north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936D40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936D40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Computer room&#x000A;Strewn about the floor of this computer room are broken memory crystals, apparently from the ship's main computer. A locked hatch is in the floor, and exits are north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936DB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936DB0">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">Type something here!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936E20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936E20">
+    <command xml:space="preserve">type something</command>
+    <result xml:space="preserve">The screen replies:&#x000A;Enter 1 to pressurize cargo.&#x000A;Enter 2 to activate LifeBoat.&#x000A;&#x000A;Enter your choice now -&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936E90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936E90">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">OK.&#x000A;Non functional.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x07936F00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x07936F00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bent crowbar&#x000A;  a keycard&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A1F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A1F10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A1F80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A1F80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Cargo&#x000A;All of these crates contain cargo to be taken to your destination. A few might contain spare parts. Doors lead north and south.&#x000A;&#x000A;You can see a large crate (in which is a small device) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A1FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A1FF0">
+    <command xml:space="preserve">take device</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passageway&#x000A;From here it is possible to go north, south, east, or west. To the south is the cargo bay, which is normally not pressurized.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A20D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A20D0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2140">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat&#x000A;The lifeboat is a little banged-up. Some parts seem to be missing. It is as if you are not wanted to leave!&#x000A;&#x000A;You hear explosions!&#x000A;The small device apparently fits a hole in the instrument board.  With care you insert the device. The lifeboat hums with energy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A21B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A21B0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bent crowbar&#x000A;  a keycard&#x000A;&#x000A;You hear explosions!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2220"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2220">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2290">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2300">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Computer room&#x000A;Strewn about the floor of this computer room are broken memory crystals, apparently from the ship's main computer. A locked hatch is in the floor, and exits are north and south.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2370"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2370">
+    <command xml:space="preserve">type something</command>
+    <result xml:space="preserve">The screen replies:&#x000A;Enter 1 to pressurize cargo.&#x000A;Enter 2 to activate LifeBoat.&#x000A;&#x000A;Enter your choice now -&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A23E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A23E0">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">OK.&#x000A;4 moves to launch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2450">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Passageway&#x000A;One of the many passageways on the ship, from here it is possible to go north, south, east, and west.&#x000A;&#x000A;3 moves to launch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A24C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A24C0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;Two of the three lifeboats are missing; the last lifeboat is to the east. Two curving passageways exit from here, one north and one south.&#x000A;&#x000A;2 moves to launch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2530">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lifeboat&#x000A;The lifeboat is a little banged-up. Some parts seem to be missing. It is as if you are not wanted to leave!&#x000A;&#x000A;As you enter, the lifeboat seals and slowly lifts away from the ship. You have made good your escape.&#x000A;&#x000A;&#x000A;&#x000A;    *** You have won ***&#x000A;&#x000A;&#x000A;In that game you scored 0 out of a possible 0, in 62 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A25A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A25A0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Lifeboat Bay&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A2680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A2680">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;1 moves to launch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x079A26F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x079A26F0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;0 moves to launch.&#x000A;&#x000A;&#x000A;&#x000A;    *** The lifeboat has launched without you! ***&#x000A;&#x000A;&#x000A;In that game you scored 0 out of a possible 0, in 63 turns.&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
