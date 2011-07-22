@@ -1293,7 +1293,7 @@ the academy is an unfamiliar subject.
 the coup is an unfamiliar subject.
 the dungeon is an unfamiliar subject.
 the charges is an unfamiliar subject.
-taxes are an unfamiliar subject.
+taxes are a subject.
 
 Chapter 1 - The Lich
 
@@ -1537,9 +1537,9 @@ Grandfather is a familiar man.
 
 Chapter 5 - The Fisherman
 
-The fisherman is a man. "There is a man here, sitting on a rocky outcropping, fishing." The description is "He is a middle aged, balding man in relatively good shape." Understand "man" or "fisher" as the fisherman.
+The fisherman is a man. "There is a man here, sitting on a rock with a fishing rod." The description is "He is a middle aged, balding man in relatively good shape." Understand "man" or "fisher" as the fisherman. 
 
-The fishing rod is carried by the man. The description is "It's nothing fancy."
+The fishing rod is carried by the fisherman. The description is "It's nothing fancy."
 
 fisherman-seen-crown is a truth state that varies.
 fisherman-seen-scepter is a truth state that varies.
@@ -1547,13 +1547,19 @@ To decide whether fisherman-seen-both:
 	if fisherman-seen-crown is true and fisherman-seen-scepter is true, yes;
 	no.
 
+Default response of the fisherman:
+	say "You ask the fisherman about [the noun]. 'Well I don't know much about that,' he replies."
+	
 Response of the fisherman when asked about taxes:
-	say "'So how are the taxes here?' you ask. [/p][one of]'Err, well I don't know,' the fisherman answers nervously. Glancing around, he lowers his voice and mutters, 'people who talk too much about that sort of thing wind up in the dungeons.'[or]'Sorry, I can't talk about that.'[stopping]".
+	now the dungeon is familiar;
+	say "'So how are the taxes here?' you ask. [/p][one of]'Err, well I don't know,' the fisherman answers nervously. Glancing around, he lowers his voice and mutters, 'people who talk too much about that sort of thing wind up in the dungeons.'[or]'Sorry, I can't talk about that.' Your question seems to have made him uncomfortable[stopping]".
 
 Response of the fisherman when asked-or-told about the wizard:
+	now the king is familiar;
 	say "'What do you think about [one of]the wizard[or]Theodorus[stopping]?' you ask. [/p]'[if fisherman-seen-both]Hmm... the old man is certainly worldly,' the fisherman thinks for a moment. 'But I'm not sure he'd be the best ruler. He has little pity for those who are poor or starving.'[otherwise][one of]You mean Theodorus? [or][stopping]Well, he's been around a long time,' the fisherman begins. 'He worked a lot in helping the revolution which placed his majesty on the throne. The two of them have had some disagreements lately.' The fisherman glances around, and motions you in close. 'I wouldn't be suprised if ol' Theo regrets his role in the coup that replaced the former king.'[end if]"
 
 Response of the fisherman when asked-or-told about the lich:
+	now the king is familiar;
 	say "'[if the lich is seen]I met a lich in the mausoleum,[otherwise]I have heard something about a lich,[end if]' you begin. [/p][if fisherman-seen-both]'You want to give the power to rule the land in the hands of that undead creature?' the fisherman asks, aghast. 'It might want to avenge its brother's death, but I can't imagine the country prospering under its rule. Still,' he considers, 'it might be better than Darius.[otherwise]'Ugh, that foul undead creature,' the fisherman exclaims. He pauses a moment to spit into the stream. 'That lich was the king's brother, the old king Dalton I mean. He turned to dark magics and turned himself into that... thing.[end if]'"
 
 Response of the fisherman when asked-or-told about the king:
@@ -1595,10 +1601,23 @@ Response of the fisherman when asked-or-told about the scepter:
 		say "'I heard that the scepter was lost,' you say. [/p]'Yeah, that old scepter that Dalton used to carry around,' the fisherman answers. 'It was supposed to be some sort of powerful magical artifact, but it takes some sort of skill to use it.'"
 
 Response of the fisherman when asked-or-told about the castle:
-    say "'What can you tell me about the castle?' you ask. [/p]'Head north to the end of town, then east. You can't miss it.' he responds. 'But don't think much about getting an audience with the king. Even if you get it he will probably have you thrown in the dungeon for wasting his time.'"
+	now the king is familiar;
+	now the dungeon is familiar;
+	say "'What can you tell me about the castle?' you ask. [/p]'Head north to the end of town, then east. You can't miss it.' he responds. 'But don't think much about getting an audience with the king. Even if you get it he will probably have you thrown in the dungeon for wasting his time.'"
+	
 
 Response of the fisherman when asked-or-told about grandfather:
+	now king is familiar;
+	now atari is familiar;
+	now castle is familiar;
 	say "'I'm looking for my grandfather,' you begin. [/p]'Oh yes, I met him a while back,' the fisherman responds. 'He mentioned having a grandchild that looks like you. Good fishing companion, that old guy. [if the fisherman can see atari]I see you've brought his dog. [otherwise]Have you seen his dog around? [end if]I haven't seen your grandpops in a while. I hope he didn't get thrown in the dungeon. The king is a bit, ah, finicky these days.'"
+	
+Response of the fisherman when asked about "fishing":
+	say "'Catching anything today?' you ask. [/p]'No, nothing yet,' the fisherman replies."
+	
+Response of the fisherman when asked about the fishing rod:
+	say "'That's a nice fishing rod,' you say. [/p]'Yes, you like it?' he replies. 'I made it myself.'";
+	
 
 Chapter 6 - Castle Guards
 
@@ -1785,7 +1804,7 @@ Narrow Forest Path is a room. It is southwest of west field. "You are in the mid
 Path by Stream is a room. It is west of narrow forest path. "The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west."
 
 South Stream Bank is a room. It is north of path by stream. "[if the player is in the kayak]You float near the southern bank of the stream.[otherwise]You are at the southern bank of the stream.[end if] The water flows steadily to the west, and it [if the player is in the kayak]is[otherwise]looks[end if] fairly shallow at this point. [if the player is in the kayak]Far to the west you see the stream opens up into a vast ocean. The trees of the forest densly populate the banks on the north and south sides of the stream. You can paddle upstream to the east.[otherwise]The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge.[end if]". It is watery.
-Report going north from south stream bank when the player is not in the kayak:
+Report going northwest from south stream bank when the player is not in the kayak:
 	say "You wade through the stream...";
 Report going east from south stream bank when the player is not in the kayak:
 	say "You walk carefully along the edge of the stream."
@@ -1794,18 +1813,20 @@ Report going west from south stream bank when the player is not in the kayak:
 
 Index map with south stream bank mapped north of path by stream.
 
-Sand Bar is a room. It is north of south stream bank. "[if the player is in the kayak]You float near a shallow sand bar in the stream.[otherwise]You stand atop a shallow sand bar in the stream.[end if] The water runs slowly over it[if the player is not in the kayak], just up to your ankles[end if]. To the east you see that the stream gets narrower and the water flows faster, with several rocky areas with white water rapids. Beyond that, you see a large waterfall. To the west, the stream opens up into a vast ocean." It is watery.
+Sand Bar is a room. It is northwest of south stream bank. "[if the player is in the kayak]You float near a shallow sand bar at the mouth of the stream.[otherwise]You stand atop a shallow sand bar at the mouth of the stream.[end if] The water runs slowly over it[if the player is not in the kayak], just up to your ankles[end if]. To the east you see that the stream gets narrower and the water flows faster, with several rocky areas. Far in the distance beyond that, you see a large waterfall. A vast ocean sprawls out to the west." It is watery.
 The blue crystal sphere is here.
 
-Report going north from Sand Bar when the player is not in the kayak:
+Instead of going east from Sand Bar when the player is in the kayak, try going northeast.
+Instead of going east from Sand Bar when the player is not in the kayak, say "The water is too deep to wade in."
+Report going northeast from Sand Bar when the player is not in the kayak:
 	say "You wade through the stream...";
-Report going south from Sand Bar when the player is not in the kayak:
+Report going southeast from Sand Bar when the player is not in the kayak:
 	say "You wade through the stream...";
 Report going nowhere from Sand Bar when the player is not in the kayak:
 	say "The stream looks to be moving too fast to go in that direction." instead.
 
-North Stream Bank is a room. It is north of sand bar. "This is the northern bank of the stream. [if the player is in the kayak]You float near[otherwise]You stand atop[end if] a small muddy beach. The forest comes right up to the edge of the shore[if the player is not in the kayak], although it looks like you might be able to proceed east along the shore[end if]. To the south you see a sand bar in the middle of the stream. A path goes through the trees to the north." It is watery.
-Report going south from north stream bank when the player is not in the kayak:
+North Stream Bank is a room. It is northeast of sand bar. "This is the northern bank of the stream. [if the player is in the kayak]You float near[otherwise]You stand atop[end if] a small muddy beach. The forest comes right up to the edge of the shore[if the player is not in the kayak], although it looks like you might be able to proceed east along the shore[end if]. To the south you see a sand bar in the middle of the stream. A path goes through the trees to the north." It is watery.
+Report going southwest from north stream bank when the player is not in the kayak:
 	say "You wade through the stream...";
 Report going east from north stream bank when the player is not in the kayak:
 	say "You walk carefully along the edge of the stream."
@@ -1816,37 +1837,38 @@ Stream Bend is a room. It is east of south stream bank. "You are on a rocky bank
 
 Index map with stream bend mapped east of south stream bank.
 
-Rocky outcropping is a room. It is east of north stream bank and south of west waterfall bank.
+Rocky outcropping is a room. It is east of north stream bank and west of Waterfall North Bank. "This bank of the stream is rather rocky, but you can still navigate it. The stream bank continues east-west. In the distance to the east, you see a magnificent waterfall."
+The fisherman is here.
 
 Part 4 - Waterfall
 
-Waterfall West Bank is a room. "[if the player is in the kayak]You are floating in your kayak at[otherwise]You stand on the bank of[end if] the west side of a large pool, at the base of a fantastic waterfall. The noise of the waterfall is deafening[if location is wet], drowning out even the sound of the rain[end if]." It is watery.
-Report going south from waterfall west bank:
+Waterfall North Bank is a room. "[if the player is in the kayak]You are floating in your kayak at[otherwise]You stand on the bank of[end if] the west side of a large pool, at the base of a fantastic waterfall. The noise of the waterfall is deafening[if location is wet], drowning out even the sound of the rain[end if]." It is watery.
+Report going west from waterfall north bank:
 	say "You walk carefully along the edge of the stream."
-Instead of going east from waterfall west bank when the player is not in the kayak:
+Instead of going south from waterfall north bank when the player is not in the kayak:
 	say "There doesn't seem to be any path here to the other bank of the stream. You're going to have to find another way around."
-Instead of going up from waterfall east bank:
+Instead of going up from waterfall north bank:
 	say "The rocks are too treacherous to climb."
-Instead of going north from waterfall east bank:
+Instead of going east from waterfall north bank:
 	say "There's a solid rock wall blocking you."
 	
-Waterfall East Bank is a room. Southwest of waterfall east bank is stream bend.   "[if the player is in the kayak]You are floating in your kayak at[otherwise]You stand on the bank of[end if] the east side of a large pool, at the base of a fantastic waterfall. The noise of the waterfall is deafening[if location is wet], drowning out even the sound of the rain[end if]. There is a path through the trees to the east." It is watery. West of waterfall east bank is waterfall west bank.
-Report going southwest from waterfall east bank:
+Waterfall South Bank is a room. Southwest of waterfall south bank is stream bend.   "[if the player is in the kayak]You are floating in your kayak at[otherwise]You stand on the bank of[end if] the east side of a large pool, at the base of a fantastic waterfall. The noise of the waterfall is deafening[if location is wet], drowning out even the sound of the rain[end if]. There is a path through the trees to the east." It is watery. North of waterfall south bank is waterfall north bank.
+Report going southwest from waterfall south bank:
 	say "You walk carefully along the edge of the stream as it curves to the west."
-Instead of going west from waterfall east bank when the player is not in the kayak:
+Instead of going north from waterfall south bank when the player is not in the kayak:
 	say "There doesn't seem to be any path here to the other bank of the stream. You're going to have to find another way around."
-Instead of going up from waterfall east bank:
+Instead of going up from waterfall south bank:
 	say "The rocks are too treacherous to climb."
-Instead of going north from waterfall east bank:
+Instead of going east from waterfall south bank:
 	say "There's a solid rock wall blocking you."
 	
-There is a backdrop called the waterfall. It is in waterfall west bank and waterfall east bank and sand bar and stream bend. It is scenery. The description is "The waterfall extends probably about two hundred feet vertically, in a breath-takingly beautiful sight. [if location is not wet]You see a the hint of a rainbow in the mist coming off the waterfall.[end if][if the player is in the kayak] You see a dark shadow at the base of the waterfall. It's hard to tell, but it might be some sort of cavern.[end if]"
+There is a backdrop called the waterfall. It is in waterfall north bank and waterfall south bank and sand bar and stream bend and rocky outcropping. It is scenery. The description is "The waterfall extends probably about two hundred feet vertically, in a breath-takingly beautiful sight. [if location is not wet]You see a the hint of a rainbow in the mist coming off the waterfall.[end if][if the player is in the kayak] You see a dark shadow at the base of the waterfall. It's hard to tell, but it might be some sort of cavern.[end if]"
 
-Instead of entering the stream when the player is in waterfall east bank or the player is in waterfall west bank or the player is in stream bend:
+Instead of entering the stream when the player is in waterfall north bank or the player is in waterfall south bank or the player is in stream bend or the player is in rocky outcropping:
 	if the player is in the kayak:
 		try exiting;
 	otherwise:
-		say "You jump into the pool, but with the water running so fast you are dragged downstream faster than you can do anything. The white water going over the rocks is rather cruel. ";
+		say "You jump into the stream, but with the water running so fast you are dragged downstream faster than you can do anything. The white water going over the rocks is rather cruel. ";
 		if a random chance of 1 in 8 succeeds and the player is not wearing the crown:
 			end the story saying "You broke your neck on a rock";
 		otherwise:
@@ -1857,9 +1879,9 @@ Instead of entering the stream when the player is in waterfall east bank or the 
 			if x is 3, move the player to south stream bank;
 			if x is 4, move the player to Beach N;
 		
-There is a backdrop called stream. It is in waterfall west bank, waterfall east bank, south stream bank, sand bar, north stream bank, path by stream, and Beach N. Understand "water" as the stream. The description is "It's a good sized stream of water. The water looks [if location is south stream bank or location is north stream bank]slow and shallow enough that you might be able to wade across it[otherwise]like it is fast-moving and dangerous[end if]."
+There is a backdrop called stream. It is in waterfall south bank, waterfall north bank, south stream bank, sand bar, north stream bank, path by stream, and Beach N. Understand "water" as the stream. The description is "It's a good sized stream of water. The water looks [if location is south stream bank or location is north stream bank]slow and shallow enough that you might be able to wade across it[otherwise]like it is fast-moving and dangerous[end if]."
 
-Instead of entering the waterfall while the player is in the kayak and (the location is waterfall west bank or the location is waterfall east bank):
+Instead of entering the waterfall while the player is in the kayak and (the location is waterfall north bank or the location is waterfall south bank):
 	say "You take a deep breath, and paddle your kayak right into the waterfall!";
 	move the player to cave inside waterfall.
 	
@@ -1877,7 +1899,7 @@ Rocky Ledge is a room. "You are on a small rocky ledge, precariously jutting out
 	
 Part 5 - Region
 
-The Great Forest is a region. It is outdoors. West Field, East Field, Narrow Forest Path, Path by stream,  north stream bank, south stream bank, forest clearing, waterfall west bank, waterfall east bank, sand bar, stream bend, creepy forest path are in the great forest.
+The Great Forest is a region. It is outdoors. West Field, East Field, Narrow Forest Path, Path by stream,  north stream bank, south stream bank, forest clearing, waterfall north bank, waterfall south bank, stream bend, rocky outcropping, creepy forest path are in the great forest.
 
 The coniferous forest is a backdrop. Understand "trees" and "tree" as the coniferous forest. The description is "These are large pine trees, or some variety of coniferous species. It's hard to really tell, since you are not exactly an arborist." The coniferous forest is in the great forest.
 
@@ -1889,7 +1911,7 @@ Book 3 - Beach and Ocean
 
 Part 1 - Mermaid Beach
 
-Beach N is a room.  "[if the player is in a kayak]You are floating in a kayak at the north end of a nice beach.[otherwise]You are at the north end of a nice beach.[end if] To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south." The printed name is "Beach (north end)". It is watery, sandy and near waves. It is west of path by stream. Northeast from beach N is south stream bank. 
+Beach N is a room.  "[if the player is in a kayak]You are floating in a kayak at the north end of a nice beach.[otherwise]You are at the north end of a nice beach.[end if] To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south." The printed name is "Beach (north end)". It is watery, sandy and near waves. It is west of path by stream. Northeast from beach N is south stream bank.  North of beach N is sand bar.
 Instead of going north from Beach N when the player is not in the kayak, say "You could wade across the stream, but the shore on the other side looks to be too covered in vegetation for there to be anywhere for you to go. Maybe there is a place further east where you can wade across the stream."
 Instead of going west from Beach N when the player is not in the kayak, say "You can't exactly swim across the ocean, you know."
 Instead of going southwest from Beach N when the player is not in the kayak, say "You can't exactly swim across the ocean, you know."
@@ -1923,11 +1945,10 @@ Instead of pushing the canoe:
 
 Part 2 - By the Stream
 
-Stream Mouth is a room. It is north of beach n. "You float at the mouth of the stream, which stretches out to the east." It is deep watery. It is west of sand bar.
-
-Near Land is a room. It is north of stream mouth. "You are floating near land, however the land is too rocky and covered with trees to beach your kayak." It is deep watery.
+Near Land is a room. It is north of sand bar. "You are floating near land, however the land is too rocky and covered with trees to beach your kayak." It is deep watery.
 Report going nowhere from near land:
-	say "It is too rocky to land."
+	say "It is too rocky to land." instead.
+
 
 Part 3 - Town Beach
 
@@ -1938,39 +1959,9 @@ Town Beach N is north of town beach S. "Town beach place." The printed name is "
 
 Part 4 - Ocean
 
-[
-An ocean is a kind of room. An ocean is always deep watery. An ocean usually has printed name "Ocean".  An ocean can be shallow or deep. An ocean is usually deep. An ocean is usually deep watery. The description of an ocean is usually "You are floating on the ocean. [if the location is deep]You are rather far from land and the waves are very big. You're not sure how your kayak is going to hold under these conditions. Between the waves you catch an occasional glimpse of land far away in the east. [otherwise]The ocean stretches out all around you, but you can still see land in the distance to the east. The waves are getting large, but your kayak seems to be able to handle them.[end if]".
-
-Instead of going up when the location is an ocean:
-	say "Oh, are you planning to grow wings and fly away?"
-Instead of going down when the location is an ocean:
-	say "Diving into the water here would be suicide."
-Instead of going nowhere when the location is an ocean:
-	let next room be a random deep ocean;
-	say "You paddle and paddle but you're really not sure about where you are going.";
-	move the inflatable kayak to next room;
-	try looking.
-
-
-
-West of beach s is an ocean called Ocean 1. North of ocean 1 is an ocean called ocean 2. North of ocean 2 is an ocean called ocean 3. North of ocean 3 is an ocean called ocean 4. North of ocean 4 is an ocean called Ocean 5. North of ocean 5 is an ocean called Ocean 6. 
-
-South of ocean 1 is an ocean called ocean 0. West of ocean 1 is an ocean called ocean 7. West of ocean 2 is an ocean called ocean 8. west of ocean 3 is an ocean called ocean 9. west of ocean 4 is an ocean called ocean A. west of ocean 5 is an ocean called ocean B. west of ocean 6 is an ocean called ocean C. north of ocean 6 is an ocean called ocean D.
-
-Ocean 2 is west of beach n. Ocean 3 is west of stream mouth. ocean 4 is west of near land. ocean 5 is west of town beach s. ocean 6 is west of town beach n.
-
-ocean 0 is southwest of beach s. ocean 1 is southwest of beach n. ocean 2 is southwest of stream mouth. ocean 3 is southwest of near land. ocean 4 is southwest of town beach s. ocean 5 is southwest of town beach n.
-ocean 2 is northwest of beach s. ocean 3 is northwest of beach n. ocean 4 is northwest of stream mouth. ocean 5 is northwest of near land. ocean 6 is northwest of town beach s. ocean d is northwest of town beach n.
-
-ocean 7 is southwest of ocean 2. ocean 8 is southwest of ocean 3. ocean 9 is southwest of ocean 4. ocean a is southwest of ocean 5. ocean b is southwest of ocean 6. ocean c is southwest of ocean d.
-ocean 7 is northwest of ocean 0. ocean 8 is northwest of ocean 1. ocean 9 is northwest of ocean 2. ocean a is northwest of ocean 3. ocean b is northwest of ocean 4. ocean c is northwest of ocean 5.
-
-ocean 0 is shallow. ocean 1 is shallow. ocean 2 is shallow. ocean 3 is shallow. ocean 4 is shallow. ocean 5 is shallow. ocean 6 is shallow. ocean d is shallow.
-]
-
 Ocean is a room. It is deep watery. "You are floating in your kayak on a vast ocean. Large waves rock around you, threatening to overturn your boat. [if ocean-x is 0 and (ocean-y < 7 and ocean-y > 0)]Not far to the east you see the mainland. [otherwise]Every once in a while, you can catch a glimpse of the mainland far to the east."
 
-Ocean is west of stream mouth. West of beach s is ocean.  West of beach n is ocean. west of near land is ocean. west of town beach s is ocean. west of town beach n is ocean. East of ocean is nowhere.
+West of beach s is ocean.  West of beach n is ocean. west of near land is ocean. west of town beach s is ocean. west of town beach n is ocean. East of ocean is nowhere.
 Index map with room-size of ocean set to 500.
 
 [ x,y coordinates for when we are at sea. y is decreased going north, like coordinates on a monitor. ]
@@ -1982,7 +1973,7 @@ x	y	room
 1	1	Town Beach N
 1	2	Town Beach S
 1	3	Near Land
-1	4	Stream Mouth
+1	4	Sand Bar
 1	5	Beach N
 1	6	Beach S
 
@@ -2050,7 +2041,7 @@ Instead of going when the location is Ocean:
 
 Part 5 - Regions
 
-The vast ocean is an outdoors region. beach s, beach n, stream mouth, near land, town beach s, town beach n are in the vast ocean.
+The vast ocean is an outdoors region. beach s, beach n, sand bar, near land, town beach s, town beach n, ocean are in the vast ocean.
 
 The great ocean is a backdrop in the vast ocean. The printed name is "ocean". The description is "It's a vast ocean, and it looks rather unfriendly." Understand "water" as the great ocean.
 
@@ -2105,7 +2096,7 @@ The broken ceramic jar is a thing. The description is "This appears to be a rece
 
 Part 3 - Pit rooms
 
-Pit Room is south of the crypt. The printed name is "Pit Room (north side)". "You are in a room with a deep gaping pit. The pit is rectangular in shape, running east-west and cuts the room in two. The air here is significantly cooler than in the rest of the mausoleum. To the south across the pit is the other half of the room, and to the north is the passage back to the crypt." It is dark.
+Pit Room N is south of the crypt. The printed name is "Pit Room (north side)". "You are in a room with a deep gaping pit. The pit is rectangular in shape, running east-west and cuts the room in two. The air here is significantly cooler than in the rest of the mausoleum. To the south across the pit is the other half of the room, and to the north is the passage back to the crypt." It is dark.
 Every turn when the location is the pit room and the chosen quest is not lich-quest:
 	if the player carries the brass lantern and the brass lantern is lit and a random chance of 1 in 12 succeeds:
 		say "A black wind passes through the room, sending a shiver down your spine. Your lantern goes out.";
@@ -2128,7 +2119,7 @@ Instead of going south in the pit room when in darkness:
 	say "It turns out that there is a big, gaping pit somewhere in this room, but without any light you don't find out about it until you are in freefall. The good news is that it's not one of those bottomless pits. The bad news is that it's a long way to the bottom.";
 	end the game in death.
 
-Pit Room S is south of Pit Room. The printed name is "Pit Room (south side)". "You are in a room with a deep gaping pit. The pit is rectangular in shape, running east-west and cuts the room in two. To the north across the pit is the other half of the room. It's rather cold here. You see a stairway leading down into the depths of the mausoleum."
+Pit Room S is south of Pit Room N. The printed name is "Pit Room (south side)". "You are in a room with a deep gaping pit. The pit is rectangular in shape, running east-west and cuts the room in two. To the north across the pit is the other half of the room. It's rather cold here. You see a stairway leading down into the depths of the mausoleum."
 
 
 Before going down in pit room s:
@@ -2136,7 +2127,7 @@ Before going down in pit room s:
 Before going north in pit room s:
 	say "You leap over the pit..."
 	
-There is a backdrop called pit in Pit room and Pit room s. The description is "It's a very deep pit, running east-west cutting the room in two. It even cuts through the walls. You can't see the bottom, but it looks narrow enough to jump across it."
+There is a backdrop called pit in Pit room n and Pit room s. The description is "It's a very deep pit, running east-west cutting the room in two. It even cuts through the walls. You can't see the bottom, but it looks narrow enough to jump across it."
 
 Instead of jumping into the pit, try entering the pit.
 Instead of entering the pit:
@@ -2160,6 +2151,7 @@ Instead of inserting something into the pit:
 Instead of throwing something at the pit:
 	say "You toss [the noun] into the pit. You wait a while, but you never hear it hit the bottom. Well, hopefully you didn't need [the noun] for anything.";
 	if the noun is the ceramic jar:
+		remove the noun from play;
 		move the broken jar to the Bottom of the Pit;
 	otherwise:
 		move the noun to Bottom of the Pit.
@@ -2176,7 +2168,7 @@ After reading the parchment:
 	now klaatu barada nikto is learned;
 	continue the action.
 ]
-Index map with bottom of the pit mapped east of pit room s.
+Index map with bottom of the pit mapped east of pit room N.
 
 Part 4 - Lich Room
 
@@ -2210,7 +2202,7 @@ Instead of going up in mausoleum entry, try going outside.
 
 Part 7 - Region
 
-There is a region called the Mausoleum. Mausoleum is indoors. Treasury, the crypt, burial chamber, the mausoleum entry, pit room, pit room s, and undead throne room are in the mausoleum.
+There is a region called the Mausoleum. Mausoleum is indoors. Treasury, the crypt, burial chamber, the mausoleum entry, pit room n, pit room s, undead throne room, bottom of the pit are in the mausoleum.
  
 The mausoleum walls are a backdrop in the mausoleum. The description is "The walls are constructed out of stone. There are a few cracks here and there, but overall they look very sturdy."
 
