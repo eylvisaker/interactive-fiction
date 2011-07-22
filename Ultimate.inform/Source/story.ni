@@ -10,7 +10,7 @@ Release along with interpreter and the introductory booklet.
 Use normal blank lines.]
 
 Include Conversation Package by Eric Eve.
-Include Spellcasting by Jim Aikin. 
+[Include Spellcasting by Jim Aikin. ]
 
 To say /p: say "[paragraph break]".
 To say /l: say "[line break]".
@@ -2169,12 +2169,13 @@ Bottom of the Pit is a room. "You are at the bottom of a deep pit, shaped like a
 A piece of parchment is a piece of paper in bottom of the pit. "An old withered piece of parchment paper lies on the floor here." The description is "It's a very old piece of parchment paper. The writing on it is delicate, and looks as though it was done with a fountain pen." 
 The text description is "The text reads: [/p]The crown and scepter are far too powerful to fall into the wrong hands. As I have no son, I fear that those who follow in my footsteps may not share my vision for this country. As such, I have had a fake crown crafted for my successor and decided that the true crown is to be buried with me. The scepter has already been given to my trusted friend and advisor Captain Neckbeard, so that he may hide it in a far away land. I will write here, as the only copy, the means to operate the scepter, in hopes that one day a true ruler of the land may emerge and use it to lead the people into the prosperity they deserve. [/p]The operation of the scepter is simple. One need only point it at one's enemy and utter the words 'klaatu barada nikto' and the enemy will be incinerated. Take care however, that the crown is worn at the same time, otherwise the feedback from the scepter will be too much to stand. [/p]It is with great regret that I write this. I was not able to achieve the prosperity of my kingdom that I had hoped for. The medics tell me nothing can be done about debilitating disease I have contracted. No magic seems to help, and even the crown does not stop the effects. I am nearing my end. I am only thankful that I shall not live to see my kingdom undone by those bickering fools who vie for my throne. I shudder to think of the chaos that will ensue once I am gone and the throne is left without an heir. [/p]His Majesty, [/l]Dalton";
 
+[
 klaatu barada nikto is a magic-spell.
 
 After reading the parchment:
 	now klaatu barada nikto is learned;
 	continue the action.
-
+]
 Index map with bottom of the pit mapped east of pit room s.
 
 Part 4 - Lich Room
