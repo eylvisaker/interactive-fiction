@@ -10,6 +10,7 @@ Instead of helping when the location is computer room:
 	
 Typing is an action applying to nothing.
 Understand "type something" as typing.
+Understand "type" as typing.
 
 Opening it with is an action applying to two things.
 Understand "open [something] with [something]" as opening it with.
@@ -56,6 +57,9 @@ Instead of typing when the location is computer room:
 	say "Enter 2 to activate LifeBoat.";
 	now the command prompt is "Enter your choice now ->";
 	
+Instead of typing when the location is not computer room:
+	say "There is nothing to type on!".
+	
 To decide whether operating the computer:
 	if the command prompt is "Enter your choice now ->", yes;
 	no.
@@ -92,7 +96,7 @@ Better luck next time."
 When play begins, say "HELP is available.";
 
 Every turn:
-	if the player is in engines, end the game in death;
+	if the player is in engines, end the story;
 	if a random chance of 1 in 10 succeeds:
 		say "You hear explosions!";
 	if the location is the lifeboat:
@@ -101,10 +105,10 @@ Every turn:
 			say "The small device apparently fits a hole in the instrument board.  With care you insert the device. The lifeboat hums with energy.";
 		if launch time is not less than zero:
 			say "As you enter, the lifeboat seals and slowly lifts away from the ship. You have made good your escape.";
-			end the game in victory;
+			end the story finally;
 	otherwise if launch time >= 0:
 		decrease launch time by 1;
 		if launch time is zero:
-			end the game saying "The lifeboat has launched without you!";
+			end the story saying "The lifeboat has launched without you!";
 		say "[launch time] moves to launch.";
 		

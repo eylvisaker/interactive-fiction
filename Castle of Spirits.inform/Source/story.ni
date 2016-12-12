@@ -23,7 +23,7 @@ ByTheGates is a room. The printed name is "By the Gates". "There is a monstrous 
 Instead of going north in bythegates:
 	if the player carries the car battery and the player carries the electromagnet:
 		say "The ghostly guard is apparently scared of the magnet and refuses to come near you. You very casually stroll out of the castle. CONGRATULATIONS from Anthony Maro, programmer.";
-		end the game in victory;
+		end the story finally;
 	otherwise:
 		say "A ghostly knight in a full suit of armor refuses to let you pass."
 
@@ -71,7 +71,7 @@ Instead of pushing the green button:
 	otherwise:
 		say "Boom!!!!";
 		say "Oops!";
-		end the game in death.
+		end the story.
 		
 Instead of pushing the yellow button:
 	if box-state is one:
@@ -81,16 +81,16 @@ Instead of pushing the yellow button:
 	otherwise:
 		say "Boom!!!!";
 		say "Oops!";
-		end the game in death.
+		end the story.
 		
 Instead of pushing the red button:
 	say "Boom!!!!";
 	say "You made a mistake!";
-	end the game in death.
+	end the story.
 	
 At 9:13 AM:
 	if the player carries the garlic bloom:
 		say "You quite suddenly are interrupted by an overpowering vampire. He takes one sniff of your garlic, sticks up his nose and then flies away.";
 	otherwise:
 		say "You quite suddenly are interrupted by an overpowering vampire. While struggling for your life he calmly drinks your blood. You have died.";
-		end the game in death.
+		end the story.

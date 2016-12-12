@@ -2,6 +2,8 @@
 
 Volume 1 - Definitions
 
+Use scoring.
+
 Book 1 - Extensions and Release settings
 
 Release along with interpreter and the introductory booklet.
@@ -239,6 +241,7 @@ Every turn:
 		if water-amount of obj is greater than 100:
 			now water-amount of obj is 100;
 	]
+
 This is the room description body text with weather rule:
 	if the visibility level count is 0:
 		if set to abbreviated room descriptions, continue the action;
@@ -775,8 +778,8 @@ Check taking something held by a playful canine (called the dog) (this is the pl
 			say "You manage to lay a hand on [the noun], but [the dog] pulls it away from you!";
 			decrease the durability of the noun by 2;
 			stop the action;
-	otherwise:
-		ignore the can't take people's possessions rule;
+	[otherwise:
+		ignore the can't take people's possessions rule;]
 	
 Report taking something held by a playful canine (called the dog):
 	say "You manage to take [the noun] away from [the dog].";
@@ -793,7 +796,7 @@ Chapter 4 - Rules for dogs
 Section 1 - Touching rules
 
 A rule for reaching inside a supporter (this is the dogs can't reach inside supporters rule):
-	If the person reaching is a canine and the supporter in question does not enclose the canine:
+	If the person reaching is a canine (called the actor) and the supporter in question does not enclose the actor:
 		deny access.
 
 A rule for reaching outside a supporter (this is the dogs can't reach outside supporters rule):
@@ -801,7 +804,7 @@ A rule for reaching outside a supporter (this is the dogs can't reach outside su
 		deny access.
 		
 A rule for reaching inside a container (this is the dogs can't reach inside containers rule):
-	If the person reaching is a canine and the container in question does not enclose the canine:
+	If the person reaching is a canine (called the actor) and the container in question does not enclose the actor:
 		deny access.
 
 A rule for reaching outside a container (this is the dogs can't reach outside containers rule):
@@ -1052,10 +1055,10 @@ Instead of waving the wand of weather-changing:
 		now the wand of weather-changing is negative polarity;
 	if the weather is clear and the wand of weather-changing is negative polarity:
 		now the wand of weather-changing is positive polarity;
-	if the wand of weather-changing is positive polarity:	
+	[if the wand of weather-changing is positive polarity:	
 		increment the weather;
 	otherwise:
-		decrement the weather;
+		decrement the weather;]
 	say "It is now [weather description].[/p]".
 	
 
@@ -1315,7 +1318,7 @@ Instead of attacking the lich:
 	if the player is wearing the crown:
 		say "However, for some reason you are unhurt by it. [if the player does not carry the scepter]Upon seeing this, the lich laughs, 'Come at me, fool! It's been years since I had a good fight.' It appears prepared for the long haul in this.[end if]";
 	otherwise:
-		end the game in death.
+		end the story.
 
 Response of the lich when asked about grandfather for the first time and chosen quest is no-quest:
 	say "'I[']m looking for my grandfather,' you say nervously, your voice cracking. [/p]The lich stares at you for a moment, and you almost think it has a thoughtful expression on its face.  'Yes, little goes on in these lands that I do not know about. Your grandfather was arrested by the tyrant usurper  and thrown in prison. He is alive, at the moment, but given the cruelty of that buffoon I do not know for how long.'";
@@ -1665,7 +1668,7 @@ The stair shelves are a supporter in under the stairs. It is scenery. The descri
 Instead of searching the shelves for the first time:
 	say "You poke around on the shelves for a little while, stirring up a bunch of dust. Most of the items are thoroughly worthless, but a piece of paper catches your eye.";
 	move journal page 1 to the stair shelves;
-	award 1 point.
+	increase the score by 1.
 Instead of searching the shelves:
 	say "You poke around on the shelves a bit more, but you don't find anything useful."
 	
@@ -1776,7 +1779,7 @@ Instead of entering the dilapidated shack in west field:
 
 East Field is a room. "You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest." 
 
-A bovine skeleton is a corpse in east field. "The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left." Understand "cow" or "bone" or "bones" as the bovine skeleton. The description is "This cow must have died a long time ago, as all that is left are bones." The detachable part of the bovine skeleton is a dog toy called a bovine bone. The canine-interest of the bovine bone is 60; The initial-durability of the bovine bone is 35; The weight of the bovine bone is 5.
+A bovine skeleton is a corpse in east field. "The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left." Understand "cow" or "bone" or "bones" as the bovine skeleton. The description is "This cow must have died a long time ago, as all that is left are bones." The detachable part of the bovine skeleton is a dog toy called a bovine bone. The canine-interest of the bovine bone is 60. The initial-durability of the bovine bone is 35. The weight of the bovine bone is 5.
 Does the player mean doing something with the bovine skeleton: it is very unlikely.
 Does the player mean doing something with the bovine bone: it is likely.
 
@@ -2117,7 +2120,7 @@ Instead of going south in the pit room:
 ]		
 Instead of going south in the pit room when in darkness:
 	say "It turns out that there is a big, gaping pit somewhere in this room, but without any light you don't find out about it until you are in freefall. The good news is that it's not one of those bottomless pits. The bad news is that it's a long way to the bottom.";
-	end the game in death.
+	end the story.
 
 Pit Room S is south of Pit Room N. The printed name is "Pit Room (south side)". "You are in a room with a deep gaping pit. The pit is rectangular in shape, running east-west and cuts the room in two. To the north across the pit is the other half of the room. It's rather cold here. You see a stairway leading down into the depths of the mausoleum."
 
@@ -2138,7 +2141,7 @@ Instead of entering the pit:
 		move the player to bottom of the pit;
 	otherwise:
 		say "It turns out the pit isn't bottomless, but it *is* a very long way to the bottom.";
-		end the game in death.
+		end the story.
 		
 Instead of jumping over the pit in pit room:
 	try going south.
@@ -2180,7 +2183,7 @@ Instead of entering Crypt stairway in Undead Throne Room, try going up.
 Instead of entering Crypt stairway in pit room s, try going down.
 Instead of going north from Undead Throne Room, try going up.
 
-There is a scenery enterable supporter called the undead throne in undead throne room. The description of undead throne is "[if the lich is in the location]The lich is sitting on a high-backed chair that appears to be constructed out of bone. You don't really feel comfortable getting closer for a more thorough examination.[otherwise]The throne is a high-backed chair that is constructed out of bone. Even without the lich here, the chair gives off a very creepy feeling.[end if]".
+There is a scenery enterable supporter called the grave throne in undead throne room. The description of grave throne is "[if the lich is in the location]The lich is sitting on a high-backed chair that appears to be constructed out of bone. You don't really feel comfortable getting closer for a more thorough examination.[otherwise]The throne is a high-backed chair that is constructed out of bone. Even without the lich here, the chair gives off a very creepy feeling.[end if]".
 Before entering the undead throne in the presence of the lich:
 	say "I don't think [the lich] wants you sitting on its lap." instead.
 	
