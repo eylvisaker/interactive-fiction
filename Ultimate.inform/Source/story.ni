@@ -1,4 +1,9 @@
 "The Ultimate Text Adventure" by "Erik Ylvisaker"
+[
+This text adventure is unfinished and doesn't have a good name. I gave up on this when I realized that having lots of rooms in a text adventure isn't actually all that fun.I had fun programming the dog though.
+]
+
+Release along with an interpreter.
 
 Volume 1 - Definitions
 
@@ -11,6 +16,7 @@ Release along with interpreter and the introductory booklet.
 [Include Player Experience Upgrade (for Glulx only) by Aaron Reed.
 Use normal blank lines.]
 
+Include Plurality by Emily Short.
 Include Conversation Package by Eric Eve.
 [Include Spellcasting by Jim Aikin. ]
 
@@ -322,8 +328,9 @@ A canine can be excited, playful, restful, restless, asleep, staying, escaping t
 A canine has a number called boredom. Boredom is usually zero.
 A canine has a number called loneliness. Loneliness is usually zero.
 A canine has a number called frustration. Frustration is usually zero.
-A canine has a thing called item of interest. The item of interest of a canine is usually the empty object.
 A canine has a thing called forbidden item. The forbidden item of a canine is usually the empty object.
+A canine has a thing called interesting item. The interesting item of a canine is usually the empty object.
+
 A canine can be selfish, persuaded, or skipping a turn. A canine is usually selfish.
 
 [Definition: a thing is out-of-reach:
@@ -435,17 +442,17 @@ To decide if a (foobar - thing) is out-of-reach of a (dog - canine):
 
 An observation rule for throwing something at in the presence of a playful canine (called the dog): 
 	if the forbidden item of the dog is the item thrown, now the forbidden item of the dog is the empty object;
-	now the item of interest of the dog is the item thrown;
-	say "[The dog] chases after [the item of interest of the dog]!";
+	now the interesting item of the dog is the item thrown;
+	say "[The dog] chases after [the interesting item of the dog]!";
 
 Rule for updating state of a canine (called the dog):
-	if the dog can not see the item of interest of the dog and a random chance of 2 in 3 succeeds:
-		now the item of interest of the dog is the empty object;
-	if the item of interest of the dog is the forbidden item of the dog:
-		now the item of interest of the dog is the empty object;
-	if the item of interest of the dog is the dog:
-		now the item of interest of the dog is the empty object;
-	if the item of interest of the dog is the empty object:
+	if the dog can not see the interesting item of the dog and a random chance of 2 in 3 succeeds:
+		now the interesting item of the dog is the empty object;
+	if the interesting item of the dog is the forbidden item of the dog:
+		now the interesting item of the dog is the empty object;
+	if the interesting item of the dog is the dog:
+		now the interesting item of the dog is the empty object;
+	if the interesting item of the dog is the empty object:
 		let food be a random edible thing which can be seen by the dog;
 		let toy be a random dog toy which can be touched by the dog;
 		let toy-alt be a random (dog toy which can be seen by the dog) which can be touched by the dog;
@@ -457,17 +464,17 @@ Rule for updating state of a canine (called the dog):
 		say "toy: [list of dog toys that can be seen by the dog] -> [toy].";]
 		if the dog is carrying a dog toy, let toy be a random dog toy carried by the dog;
 		if food is the forbidden item of the dog, let food be the empty object;
-		if toy is not the empty object and toy is not nothing, now the item of interest of the dog is toy;
+		if toy is not the empty object and toy is not nothing, now the interesting item of the dog is toy;
 		if human is not the empty object and human is not nothing and a random chance of 1 in 2 succeeds: 
-			now the item of interest of the dog is human;
+			now the interesting item of the dog is human;
 			now the boredom of the dog is zero;
-		if food is not the empty object and food is not nothing, now the item of interest of the dog is food;
+		if food is not the empty object and food is not nothing, now the interesting item of the dog is food;
 	let monster be a random evil person that can be seen by the dog;
 	if monster is not nothing:
-		now the item of interest of the dog is monster;
-	if the item of interest of the dog is the dog:
-		now the item of interest of the dog is the empty object;
-	[say "Item of interest: [item of interest of the dog].";]
+		now the interesting item of the dog is monster;
+	if the interesting item of the dog is the dog:
+		now the interesting item of the dog is the empty object;
+	[say "interesting item: [interesting item of the dog].";]
 	if the dog can see a good person that is not the dog:
 		if the loneliness of the dog is greater than 6, now the dog is excited;
 		if loneliness of the dog is greater than zero, decrease loneliness of the dog by 2;
@@ -488,7 +495,7 @@ Rule for updating state of a canine (called the dog):
 	if the dog is restful:
 		if the dog is dry and the dog can see something edible that is not the forbidden item of the dog:
 			if a random chance of 1 in 4 succeeds, now the dog is playful;
-		if the dog can see the item of interest of the dog:
+		if the dog can see the interesting item of the dog:
 			if a random chance of 1 in 8 succeeds, now the dog is playful;
 	
 Carry out a canine (called the dog) acting intelligently:
@@ -496,7 +503,7 @@ Carry out a canine (called the dog) acting intelligently:
 		now the dog is selfish;
 		stop the action;
 	let the current space be a random room containing the dog;
-	let interesting item be the item of interest of the dog;
+	let interesting item be the interesting item of the dog;
 	if the dog is carrying something edible:
 		try the dog eating a random edible thing carried by the dog;
 		stop the action;
@@ -575,7 +582,7 @@ Carry out a canine (called the dog) acting intelligently:
 				try the dog dropping the interesting item;
 				now the forbidden item of the dog is the interesting item;
 				now boredom of the dog is zero;
-				now the item of interest of the dog is the empty object;
+				now the interesting item of the dog is the empty object;
 			otherwise:
 				decrease the durability of the interesting item by 3;
 				if the dog is visible:
@@ -615,11 +622,11 @@ Carry out a canine (called the dog) acting intelligently:
 				otherwise if the interesting item carries something edible (called food) and the dog can see the food:
 					increment the boredom of the dog;
 					say "[The dog] looks at [possessive of the interesting item] [food].";
-					now the item of interest of the dog is the food;
+					now the interesting item of the dog is the food;
 				otherwise:
 					increment the boredom of the dog;
 					say "[The dog] barks at [item-name].";
-					now the item of interest of the dog is the empty object;
+					now the interesting item of the dog is the empty object;
 			otherwise:
 				increment the boredom of the dog;
 			if the boredom of the dog is greater than 4 or a random chance of 1 in 5 succeeds:
@@ -659,7 +666,7 @@ Carry out a canine (called the dog) acting intelligently:
 					let part be the detachable part of the interesting item;
 					if a random chance of 1 in 3 succeeds and the part is off-stage:
 						now the dog carries the part;
-						now the item of interest of the dog is a random thing carried by the dog;
+						now the interesting item of the dog is a random thing carried by the dog;
 						now the durability of the part is the initial-durability of the part;
 						now the boredom of the dog is zero;
 						if the dog is visible:
@@ -747,7 +754,7 @@ Before a canine (called the dog) taking something (this is the dogs can only car
 		try the dog dropping a random thing carried by the dog.
 		
 After a canine (called the dog) taking something:
-	now the item of interest of the dog is empty object;
+	now the interesting item of the dog is empty object;
 	continue the action.
 	
 After a canine (called the dog) dropping something (called the toy):
@@ -757,7 +764,7 @@ After a canine (called the dog) dropping something (called the toy):
 Check taking something in the presence of a canine (called the dog) (this is the playful dogs want to take an object you want before you can get to it rule):
 	if the dog is in a vehicle, continue the action;
 	if the noun is not carried by the dog:
-		if the item of interest of the dog is the noun or the item of interest of the dog is the player:
+		if the interesting item of the dog is the noun or the interesting item of the dog is the player:
 			if a random chance of 1 in 2 succeeds:
 				silently try the dog taking the noun;
 				if the dog carries the noun:
@@ -872,7 +879,7 @@ To decide whether (item - a thing) interests (dog - a canine):
 To decide if (the dog - canine) is interested in (the toy - thing):
 	if the toy is a person, decide no;
 	if the toy is edible and the toy is not the forbidden item of the dog, decide yes;
-	if the toy is the item of interest of the dog, decide yes;
+	if the toy is the interesting item of the dog, decide yes;
 	if the canine-interest of the toy is greater than zero, decide yes;
 	decide no.
 
@@ -889,7 +896,7 @@ Persuasion rule for asking a canine (called the dog) to try dropping an object:
 
 Persuasion rule for asking a canine (called the dog) to try taking something:
 	if the dog carries the noun:
-		say "[The dog] looks at you quizzically, possibly because [it-they] doesn't understand how to pick up something [it-they] is already carrying.";
+		say "[The dog] looks at you quizzically, possibly because it doesn't understand how to pick up something it is already carrying.";
 		persuasion fails;
 	if the dog is the noun:
 		say "[The dog] looks at you quizzically.";
@@ -1756,7 +1763,7 @@ Instead of searching the desk for the first time:
 	move journal page 3 to the shack interior;
 	move journal page 4 to the shack interior;
 	move journal page 5 to the shack desk;
-	if atari is in shack interior, now the item of interest of atari is journal page 4.
+	if atari is in shack interior, now the interesting item of atari is journal page 4.
 
 Instead of searching the desk:
 	say "You search through the papers on the desk, more carefully this time, but you don't find anything that looks useful."

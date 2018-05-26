@@ -1,5 +1,34 @@
 "Castle of Spirits" by Anthony Maro, converted to I7 by Erik Ylvisaker
+[ 
+In January of 1989, I received my very first Commodore Magazine. I was 10 years old and had been gifted a subscription 
+for Christmas. Inside, it had a program listing for a really neat sounding game, the Castle of Spirits. 
+I had never played a text adventure before, but I typed the listing in, and after a lot of frustration from a well hidden bug,
+I eventually got it working, and it was really fun. I even used the engine to write my own text adventure. 
 
+So when I discovered Inform 7, I decided a fun way to learn it would be to port Castle of Spirits.
+
+I made a few minor changes, most notably to give the player a bit more time before the vampire shows up.
+]
+
+Release along with an interpreter
+
+The time of day is 11:35 PM.
+
+When play begins: 
+	now the left hand status line is 
+		"[the player's surroundings] / [turn count] / [score]"; 
+	now the right hand status line is "Time: [time of day]".
+
+At 11:45 PM:
+	say "Gee, it's getting late. Almost midnight. I sure hope nothing bad happens."
+
+At 12:00 AM:
+	if the player carries the garlic bloom:
+		say "You quite suddenly are interrupted by an overpowering vampire. He takes one sniff of your garlic, sticks up his nose and then flies away.";
+	otherwise:
+		say "You quite suddenly are interrupted by an overpowering vampire. While struggling for your life he calmly drinks your blood. You have died.";
+		end the story.
+			
 Oiling is an action applying to one thing.
 Understand "oil [something]" as oiling.
 Instead of oiling something, say "I don't understand you."
@@ -22,7 +51,7 @@ ByTheGates is a room. The printed name is "By the Gates". "There is a monstrous 
 
 Instead of going north in bythegates:
 	if the player carries the car battery and the player carries the electromagnet:
-		say "The ghostly guard is apparently scared of the magnet and refuses to come near you. You very casually stroll out of the castle. CONGRATULATIONS from Anthony Maro, programmer.";
+		say "The ghostly guard is apparently scared of the magnet and refuses to come near you. You very casually stroll out of the castle. CONGRATULATIONS from Anthony Maro, original programmer, and Erik Ylvisaker, inform port programmer.";
 		end the story finally;
 	otherwise:
 		say "A ghostly knight in a full suit of armor refuses to let you pass."
@@ -88,9 +117,3 @@ Instead of pushing the red button:
 	say "You made a mistake!";
 	end the story.
 	
-At 9:13 AM:
-	if the player carries the garlic bloom:
-		say "You quite suddenly are interrupted by an overpowering vampire. He takes one sniff of your garlic, sticks up his nose and then flies away.";
-	otherwise:
-		say "You quite suddenly are interrupted by an overpowering vampire. While struggling for your life he calmly drinks your blood. You have died.";
-		end the story.

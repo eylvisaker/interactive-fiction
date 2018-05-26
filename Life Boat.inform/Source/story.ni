@@ -1,4 +1,9 @@
-"Castle of Spirits" by Anthony Maro, converted to I7 by Erik Ylvisaker
+"Life Boat" by Anthony Maro, converted to I7 by Erik Ylvisaker
+[
+Like Castle of Spirits, Life Boat was a game I found in Commodore Magazine. I ported it to Inform 7 for fun.
+]
+
+Release along with an interpreter.
 
 Launch time is a number which varies. Launch time is -1.
 Helping is an action applying to nothing.

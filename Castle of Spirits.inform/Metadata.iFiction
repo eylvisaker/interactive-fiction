@@ -3,36 +3,36 @@
     <story>
         <identification>
             <ifid>36325E31-CA5D-44E9-8E3C-F38F3E9EB472</ifid>
-            <format>zcode</format>
+            <format>glulx</format>
         </identification>
         <bibliographic>
             <title>Castle of Spirits</title>
             <author>Anthony Maro, converted to I7 by Erik Ylvisaker</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
-            <firstpublished>2015</firstpublished>
+            <firstpublished>2018</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2015-03-29</releasedate>
+                    <releasedate>2018-05-26</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
-                    <compilerversion>6L38</compilerversion>
+                    <compilerversion>6M62</compilerversion>
                 </release>
             </attached>
         </releases>
         <colophon>
             <generator>Inform 7</generator>
-            <generatorversion>6L38</generatorversion>
-            <originated>2015-03-29</originated>
+            <generatorversion>6M62</generatorversion>
+            <originated>2018-05-26</originated>
         </colophon>
-        <zcode>
-            <serial>150329</serial>
+        <glulx>
+            <serial>180526</serial>
             <release>1</release>
-            <compiler>Inform 7 build 6L38</compiler>
-        </zcode>
+            <compiler>Inform 7 build 6M62</compiler>
+        </glulx>
     </story>
 </ifindex>

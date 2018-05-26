@@ -1,1111 +1,2280 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02DD8048" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02DD8048"/>
-  <item nodeId="node-0x02DD8048">
-    <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Castle of Spirits&#x000A;An Interactive Fiction by Anthony Maro, converted to I7 by Erik Ylvisaker&#x000A;Release 1 / Serial number 150329 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.&#x000A;&#x000A;&gt;</result>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-254"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">Castle of Spirits</command>
+    <result xml:space="preserve">Castle of Spirits&#x000A;An Interactive Fiction by Anthony Maro, converted to I7 by Erik Ylvisaker&#x000A;Release 1 / Serial number 180526 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">NO</temporary>
+    <changed>NO</changed>
     <children>
-      <child nodeId="node-0x02DD80B8"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-102"/>
+      <child nodeId="node-134"/>
     </children>
   </item>
-  <item nodeId="node-0x02DD80B8">
+  <item nodeId="node-2">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DD7CC8"/>
-      <child nodeId="node-0x02E03310"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-4"/>
     </children>
   </item>
-  <item nodeId="node-0x02DD7CC8">
+  <item nodeId="node-3">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02E03310">
+  <item nodeId="node-4">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E03380"/>
+      <child nodeId="node-5"/>
     </children>
   </item>
-  <item nodeId="node-0x02E03380">
+  <item nodeId="node-5">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E03620"/>
+      <child nodeId="node-6"/>
     </children>
   </item>
-  <item nodeId="node-0x02E03620">
+  <item nodeId="node-6">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02DD0"/>
+      <child nodeId="node-7"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02DD0">
+  <item nodeId="node-7">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening stable door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E03150"/>
+      <child nodeId="node-8"/>
     </children>
   </item>
-  <item nodeId="node-0x02E03150">
+  <item nodeId="node-8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E034D0"/>
+      <child nodeId="node-9"/>
     </children>
   </item>
-  <item nodeId="node-0x02E034D0">
+  <item nodeId="node-9">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02900"/>
+      <child nodeId="node-10"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02900">
+  <item nodeId="node-10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">A ghostly knight in a full suit of armor refuses to let you pass.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02A50"/>
+      <child nodeId="node-11"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02A50">
+  <item nodeId="node-11">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02BA0"/>
+      <child nodeId="node-12"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02BA0">
+  <item nodeId="node-12">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02F20"/>
+      <child nodeId="node-13"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02F20">
+  <item nodeId="node-13">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening stable door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E029E0"/>
+      <child nodeId="node-14"/>
     </children>
   </item>
-  <item nodeId="node-0x02E029E0">
+  <item nodeId="node-14">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02970"/>
+      <child nodeId="node-15"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02970">
+  <item nodeId="node-15">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02B30"/>
+      <child nodeId="node-16"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02B30">
+  <item nodeId="node-16">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;You can see an electromagnet here.&#x000A;&#x000A;You quite suddenly are interrupted by an overpowering vampire. While struggling for your life he calmly drinks your blood. You have died.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02C10"/>
+      <child nodeId="node-17"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02C10">
+  <item nodeId="node-17">
     <command xml:space="preserve">restart</command>
     <result xml:space="preserve">Castle of Spirits&#x000A;An Interactive Fiction by Anthony Maro, converted to I7 by Erik Ylvisaker&#x000A;Release 1 / Serial number 150329 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02EB0"/>
+      <child nodeId="node-18"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02EB0">
+  <item nodeId="node-18">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E03070"/>
+      <child nodeId="node-19"/>
     </children>
   </item>
-  <item nodeId="node-0x02E03070">
+  <item nodeId="node-19">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;You can see an electromagnet here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02C80"/>
+      <child nodeId="node-20"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02C80">
+  <item nodeId="node-20">
     <command xml:space="preserve">take electromagnet</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02E40"/>
+      <child nodeId="node-21"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02E40">
+  <item nodeId="node-21">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E02F90"/>
+      <child nodeId="node-22"/>
     </children>
   </item>
-  <item nodeId="node-0x02E02F90">
+  <item nodeId="node-22">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E030E0"/>
+      <child nodeId="node-23"/>
     </children>
   </item>
-  <item nodeId="node-0x02E030E0">
+  <item nodeId="node-23">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E037E0"/>
+      <child nodeId="node-24"/>
     </children>
   </item>
-  <item nodeId="node-0x02E037E0">
+  <item nodeId="node-24">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E03770"/>
+      <child nodeId="node-25"/>
     </children>
   </item>
-  <item nodeId="node-0x02E03770">
+  <item nodeId="node-25">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening stable door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E03690"/>
+      <child nodeId="node-26"/>
     </children>
   </item>
-  <item nodeId="node-0x02E03690">
+  <item nodeId="node-26">
     <command xml:space="preserve">enter tower</command>
     <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DD7E88"/>
+      <child nodeId="node-27"/>
     </children>
   </item>
-  <item nodeId="node-0x02DD7E88">
+  <item nodeId="node-27">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DD7FD8"/>
+      <child nodeId="node-28"/>
     </children>
   </item>
-  <item nodeId="node-0x02DD7FD8">
+  <item nodeId="node-28">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DD8278"/>
+      <child nodeId="node-29"/>
     </children>
   </item>
-  <item nodeId="node-0x02DD8278">
+  <item nodeId="node-29">
     <command xml:space="preserve">enter tower</command>
     <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02DD7638"/>
+      <child nodeId="node-30"/>
     </children>
   </item>
-  <item nodeId="node-0x02DD7638">
+  <item nodeId="node-30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21268"/>
+      <child nodeId="node-31"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21268">
+  <item nodeId="node-31">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;You quite suddenly are interrupted by an overpowering vampire. While struggling for your life he calmly drinks your blood. You have died.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E213B8"/>
+      <child nodeId="node-32"/>
     </children>
   </item>
-  <item nodeId="node-0x02E213B8">
+  <item nodeId="node-32">
     <command xml:space="preserve">restart</command>
     <result xml:space="preserve">Castle of Spirits&#x000A;An Interactive Fiction by Anthony Maro, converted to I7 by Erik Ylvisaker&#x000A;Release 1 / Serial number 150329 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E217A8"/>
+      <child nodeId="node-33"/>
     </children>
   </item>
-  <item nodeId="node-0x02E217A8">
+  <item nodeId="node-33">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21428"/>
+      <child nodeId="node-34"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21428">
+  <item nodeId="node-34">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Guard Quarters&#x000A;This is a small guard's shack. Various everyday items are on the floor.&#x000A;&#x000A;You can see a black box here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20B68"/>
+      <child nodeId="node-35"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20B68">
+  <item nodeId="node-35">
     <command xml:space="preserve">open box</command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20E78"/>
+      <child nodeId="node-36"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20E78">
+  <item nodeId="node-36">
     <command xml:space="preserve">take box</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E212D8"/>
+      <child nodeId="node-37"/>
     </children>
   </item>
-  <item nodeId="node-0x02E212D8">
+  <item nodeId="node-37">
     <command xml:space="preserve">look box</command>
     <result xml:space="preserve">There are three buttons the color of a traffic light imbedded in the side.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21348"/>
+      <child nodeId="node-38"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21348">
+  <item nodeId="node-38">
     <command xml:space="preserve">push green</command>
     <result xml:space="preserve">CLICK.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20D28"/>
+      <child nodeId="node-39"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20D28">
+  <item nodeId="node-39">
     <command xml:space="preserve">push yellow</command>
     <result xml:space="preserve">The box opens and I now have a key.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20D98"/>
+      <child nodeId="node-40"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20D98">
+  <item nodeId="node-40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E215E8"/>
+      <child nodeId="node-41"/>
     </children>
   </item>
-  <item nodeId="node-0x02E215E8">
+  <item nodeId="node-41">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21498"/>
+      <child nodeId="node-42"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21498">
+  <item nodeId="node-42">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20AF8"/>
+      <child nodeId="node-43"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20AF8">
+  <item nodeId="node-43">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">Which do you mean, the tower door or stable door?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20E08"/>
+      <child nodeId="node-44"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20E08">
+  <item nodeId="node-44">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21508"/>
+      <child nodeId="node-45"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21508">
+  <item nodeId="node-45">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">Which do you mean, the tower door or stable door?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20BD8"/>
+      <child nodeId="node-46"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20BD8">
+  <item nodeId="node-46">
     <command xml:space="preserve">stable</command>
     <result xml:space="preserve">What do you want to unlock stable door with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20F58"/>
+      <child nodeId="node-47"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20F58">
+  <item nodeId="node-47">
     <command xml:space="preserve">key</command>
     <result xml:space="preserve">You unlock stable door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20EE8"/>
+      <child nodeId="node-48"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20EE8">
+  <item nodeId="node-48">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening stable door)&#x000A;&#x000A;Stables&#x000A;You stand in the stables, which have apparently not been kept very clean.&#x000A;&#x000A;You can see a garlic bloom here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21578"/>
+      <child nodeId="node-49"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21578">
+  <item nodeId="node-49">
     <command xml:space="preserve">take garlic</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20FC8"/>
+      <child nodeId="node-50"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20FC8">
+  <item nodeId="node-50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;You quite suddenly are interrupted by an overpowering vampire. He takes one sniff of your garlic, sticks up his nose and then flies away.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21658"/>
+      <child nodeId="node-51"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21658">
+  <item nodeId="node-51">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20A18"/>
+      <child nodeId="node-52"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20A18">
+  <item nodeId="node-52">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E216C8"/>
+      <child nodeId="node-53"/>
     </children>
   </item>
-  <item nodeId="node-0x02E216C8">
+  <item nodeId="node-53">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;You can see an electromagnet here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20C48"/>
+      <child nodeId="node-54"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20C48">
+  <item nodeId="node-54">
     <command xml:space="preserve">take magnet</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21038"/>
+      <child nodeId="node-55"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21038">
+  <item nodeId="node-55">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20CB8"/>
+      <child nodeId="node-56"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20CB8">
+  <item nodeId="node-56">
     <command xml:space="preserve">enter tower</command>
     <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E210A8"/>
+      <child nodeId="node-57"/>
     </children>
   </item>
-  <item nodeId="node-0x02E210A8">
+  <item nodeId="node-57">
     <command xml:space="preserve">unlock tower</command>
     <result xml:space="preserve">What do you want to unlock the tower door with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21738"/>
+      <child nodeId="node-58"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21738">
+  <item nodeId="node-58">
     <command xml:space="preserve">key</command>
     <result xml:space="preserve">That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E20A88"/>
+      <child nodeId="node-59"/>
     </children>
   </item>
-  <item nodeId="node-0x02E20A88">
+  <item nodeId="node-59">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  an electromagnet&#x000A;  a garlic bloom&#x000A;  a key&#x000A;  a black box&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21118"/>
+      <child nodeId="node-60"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21118">
+  <item nodeId="node-60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21188"/>
+      <child nodeId="node-61"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21188">
+  <item nodeId="node-61">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21888"/>
+      <child nodeId="node-62"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21888">
+  <item nodeId="node-62">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21818"/>
+      <child nodeId="node-63"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21818">
+  <item nodeId="node-63">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">A ghostly knight in a full suit of armor refuses to let you pass.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E218F8"/>
+      <child nodeId="node-64"/>
     </children>
   </item>
-  <item nodeId="node-0x02E218F8">
+  <item nodeId="node-64">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Guard Quarters&#x000A;This is a small guard's shack. Various everyday items are on the floor.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E21968"/>
+      <child nodeId="node-65"/>
     </children>
   </item>
-  <item nodeId="node-0x02E21968">
+  <item nodeId="node-65">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E0A570"/>
+      <child nodeId="node-66"/>
     </children>
   </item>
-  <item nodeId="node-0x02E0A570">
+  <item nodeId="node-66">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E0A5E0"/>
+      <child nodeId="node-67"/>
     </children>
   </item>
-  <item nodeId="node-0x02E0A5E0">
+  <item nodeId="node-67">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02E0AB90"/>
+      <child nodeId="node-68"/>
     </children>
   </item>
-  <item nodeId="node-0x02E0AB90">
+  <item nodeId="node-68">
     <command xml:space="preserve">enter tower</command>
     <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBCF48"/>
+      <child nodeId="node-69"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBCF48">
+  <item nodeId="node-69">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Stables&#x000A;You stand in the stables, which have apparently not been kept very clean.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD488"/>
+      <child nodeId="node-70"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD488">
+  <item nodeId="node-70">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD258"/>
+      <child nodeId="node-71"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD258">
+  <item nodeId="node-71">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD4F8"/>
+      <child nodeId="node-72"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD4F8">
+  <item nodeId="node-72">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBCFB8"/>
+      <child nodeId="node-73"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBCFB8">
+  <item nodeId="node-73">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBCDF8"/>
+      <child nodeId="node-74"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBCDF8">
+  <item nodeId="node-74">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD5D8"/>
+      <child nodeId="node-75"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD5D8">
+  <item nodeId="node-75">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBC848"/>
+      <child nodeId="node-76"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBC848">
+  <item nodeId="node-76">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBCD88"/>
+      <child nodeId="node-77"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBCD88">
+  <item nodeId="node-77">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBCED8"/>
+      <child nodeId="node-78"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBCED8">
+  <item nodeId="node-78">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBC8B8"/>
+      <child nodeId="node-79"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBC8B8">
+  <item nodeId="node-79">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBC928"/>
+      <child nodeId="node-80"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBC928">
+  <item nodeId="node-80">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBC998"/>
+      <child nodeId="node-81"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBC998">
+  <item nodeId="node-81">
     <command xml:space="preserve">enter shed</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD808"/>
+      <child nodeId="node-82"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD808">
+  <item nodeId="node-82">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBDBF8"/>
+      <child nodeId="node-83"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBDBF8">
+  <item nodeId="node-83">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBDAA8"/>
+      <child nodeId="node-84"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBDAA8">
+  <item nodeId="node-84">
     <command xml:space="preserve">enter shed</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBDA38"/>
+      <child nodeId="node-85"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBDA38">
+  <item nodeId="node-85">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBDC68"/>
+      <child nodeId="node-86"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBDC68">
+  <item nodeId="node-86">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD728"/>
+      <child nodeId="node-87"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD728">
+  <item nodeId="node-87">
     <command xml:space="preserve">look shed</command>
     <result xml:space="preserve">You see nothing special about the shed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBDB18"/>
+      <child nodeId="node-88"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBDB18">
+  <item nodeId="node-88">
     <command xml:space="preserve">enter shed</command>
     <result xml:space="preserve">Tool shed&#x000A;There are various tools and other items of no or some interest in the tool shed. The entrance is north.&#x000A;&#x000A;You can see an oil can and an old shovel here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD878"/>
+      <child nodeId="node-89"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD878">
+  <item nodeId="node-89">
     <command xml:space="preserve">take oil</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD648"/>
+      <child nodeId="node-90"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD648">
+  <item nodeId="node-90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBDB88"/>
+      <child nodeId="node-91"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBDB88">
+  <item nodeId="node-91">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBDD48"/>
+      <child nodeId="node-92"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBDD48">
+  <item nodeId="node-92">
     <command xml:space="preserve">oil door</command>
     <result xml:space="preserve">(the tower door)&#x000A;OK.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD6B8"/>
+      <child nodeId="node-93"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD6B8">
+  <item nodeId="node-93">
     <command xml:space="preserve">enter tower</command>
     <result xml:space="preserve">(first opening the tower door)&#x000A;&#x000A;Tower&#x000A;This is the bottom floor of one of the many towers in this castle. An exit is south of here.&#x000A;&#x000A;You can see a car battery here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD8E8"/>
+      <child nodeId="node-94"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD8E8">
+  <item nodeId="node-94">
     <command xml:space="preserve">take battery</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD798"/>
+      <child nodeId="node-95"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD798">
+  <item nodeId="node-95">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBD9C8"/>
+      <child nodeId="node-96"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBD9C8">
+  <item nodeId="node-96">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBA628"/>
+      <child nodeId="node-97"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBA628">
+  <item nodeId="node-97">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBA3F8"/>
+      <child nodeId="node-98"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBA3F8">
+  <item nodeId="node-98">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">Tower&#x000A;This is the bottom floor of one of the many towers in this castle. An exit is south of here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBA938"/>
+      <child nodeId="node-99"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBA938">
+  <item nodeId="node-99">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBA238"/>
+      <child nodeId="node-100"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBA238">
+  <item nodeId="node-100">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0ACBA548"/>
+      <child nodeId="node-101"/>
     </children>
   </item>
-  <item nodeId="node-0x0ACBA548">
+  <item nodeId="node-101">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;You can see an electromagnet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">(the electromagnet)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening stable door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Please answer yes or no.&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Please answer yes or no.&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">(the electromagnet)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">open tower</command>
+    <result xml:space="preserve">The door is stuck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">take magnet</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Guard Quarters&#x000A;This is a small guard's shack. Various everyday items are on the floor.&#x000A;&#x000A;You can see a black box here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">Castle of Spirits&#x000A;An Interactive Fiction by Anthony Maro, converted to I7 by Erik Ylvisaker&#x000A;Release 1 / Serial number 180526 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Guard Quarters&#x000A;This is a small guard's shack. Various everyday items are on the floor.&#x000A;&#x000A;You can see a black box here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">look box</command>
+    <result xml:space="preserve">There are three buttons the color of a traffic light imbedded in the side.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">push green</command>
+    <result xml:space="preserve">CLICK.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">push yellow</command>
+    <result xml:space="preserve">The box opens and I now have a key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">push red</command>
+    <result xml:space="preserve">Boom!!!!&#x000A;You made a mistake!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Castle of Spirits&#x000A;An Interactive Fiction by Anthony Maro, converted to I7 by Erik Ylvisaker&#x000A;Release 1 / Serial number 180526 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Guard Quarters&#x000A;This is a small guard's shack. Various everyday items are on the floor.&#x000A;&#x000A;You can see a black box here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">take box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">push green</command>
+    <result xml:space="preserve">CLICK.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">push yellow</command>
+    <result xml:space="preserve">The box opens and I now have a key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening stable door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Which do you mean, the tower door or stable door?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">stable door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">unlock stable door</command>
+    <result xml:space="preserve">What do you want to unlock stable door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">unlock stable door with key</command>
+    <result xml:space="preserve">You unlock stable door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">push green</command>
+    <result xml:space="preserve">CLICK.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">push yellow</command>
+    <result xml:space="preserve">The box opens and I now have a key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">unlock stable door with key</command>
+    <result xml:space="preserve">You unlock stable door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening stable door)&#x000A;&#x000A;Stables&#x000A;You stand in the stables, which have apparently not been kept very clean.&#x000A;&#x000A;You can see a garlic bloom here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">take garlic</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;Gee, it's getting late. Almost midnight. Sure hope nothing bad happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;You quite suddenly are interrupted by an overpowering vampire. He takes one sniff of your garlic, sticks up his nose and then flies away.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;You can see an electromagnet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">take ele</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">take magnet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">The door is stuck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Which do you mean, stable door or the tower door?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">tower</command>
+    <result xml:space="preserve">The door is stuck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">A ghostly knight in a full suit of armor refuses to let you pass.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">A ghostly knight in a full suit of armor refuses to let you pass.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Stables&#x000A;You stand in the stables, which have apparently not been kept very clean.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Gap in Wall&#x000A;You stand in a small gap in the wall of which the only exit is north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an electromagnet&#x000A;  a garlic bloom&#x000A;  a key&#x000A;  a black box&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">enter shed</command>
+    <result xml:space="preserve">Tool shed&#x000A;There are various tools and other items of no or some interest in the tool shed. The entrance is north.&#x000A;&#x000A;You can see an oil can and an old shovel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">oil can: Taken.&#x000A;old shovel: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">oil door</command>
+    <result xml:space="preserve">OK.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">(first opening the tower door)&#x000A;&#x000A;Tower&#x000A;This is the bottom floor of one of the many towers in this castle. An exit is south of here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Tower&#x000A;This is the bottom floor of one of the many towers in this castle. An exit is south of here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Tower&#x000A;The endless floors all appear the same in this tower. Up or down?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Tower&#x000A;This is the bottom floor of one of the many towers in this castle. An exit is south of here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">E. Courtyard&#x000A;This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an old shovel&#x000A;  an oil can&#x000A;  an electromagnet&#x000A;  a garlic bloom&#x000A;  a key&#x000A;  a black box&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">(first opening the tower door)&#x000A;The door is stuck!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">oil door</command>
+    <result xml:space="preserve">(the tower door)&#x000A;OK.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">(first opening the tower door)&#x000A;&#x000A;Tower&#x000A;This is the bottom floor of one of the many towers in this castle. An exit is south of here.&#x000A;&#x000A;You can see a car battery here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">take battery</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Something solid hits you in the face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">W. Courtyard&#x000A;This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Courtyard&#x000A;You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">By the Gates&#x000A;There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The ghostly guard is apparently scared of the magnet and refuses to come near you. You very casually stroll out of the castle. CONGRATULATIONS from Anthony Maro, programmer.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
 </Skein>
