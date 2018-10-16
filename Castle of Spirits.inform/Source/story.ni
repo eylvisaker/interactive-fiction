@@ -7,10 +7,11 @@ I eventually got it working, and it was really fun. I even used the engine to wr
 
 So when I discovered Inform 7, I decided a fun way to learn it would be to port Castle of Spirits.
 
-I made a few minor changes, most notably to give the player a bit more time before the vampire shows up.
+I made a few minor changes, most notably to give the player a bit more time before the vampire shows up and add a
+help command.
 ]
 
-Release along with an interpreter
+Release along with an interpreter.
 
 The time of day is 11:35 PM.
 
@@ -31,6 +32,7 @@ At 12:00 AM:
 			
 Oiling is an action applying to one thing.
 Understand "oil [something]" as oiling.
+Understand "lubricate [something]" as oiling.
 Instead of oiling something, say "I don't understand you."
 Instead of oiling a door:
 	if the player carries the oil can:
@@ -43,28 +45,40 @@ Does the player mean oiling an openable door: it is very unlikely.
 
 Instead of going nowhere, say "Something solid hits you in the face."
 
+The castle is a backdrop. The castle is everywhere. 
+Instead of entering the castle, say "You're already in the castle. It's spooky here, and you should be trying to find your way out."
+
 Courtyard is a room. "You are in a large courtyard with a dilapidated shed in the corner. The south edge is lined by an old stone wall with a portcullis in the middle.[if not visited]
 
-Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.[end if]" 
+Whilst going about your business a more than slightly deranged apparition appears. He seems to be screaming some nonsense about no escape. The ghost very impolitely laughs in your face, then vanishes to whatever unsightly place he appeared from.
 
-ByTheGates is a room. The printed name is "By the Gates". "There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house." It is north of courtyard.
+Type HELP to get help.[end if]".
+The portcullis is scenery in the courtyard. Instead of entering the portcullis, say "The portcullis is very solidly closed. It would take an act of god to move it."
+
+ByTheGates is a room. The printed name is "By the Gates". "There is a monstrous gate set in the north wall.  To the south is the courtyard and to the east is a small house." It is north of courtyard. The house is scenery in ByTheGates. Instead of entering the house, try going east. The gate is scenery in ByTheGates. Instead of entering the gate, try going north. 
+The ghost is scenery in ByTheGates. "The ghostly knight is wearing a full suit of decidedly un-ghostly armor." Understand "knight" as the ghost. Understand "guard" as the ghost. 
+
+Seen the ghost is a truth state that varies. Seen the ghost is false.
 
 Instead of going north in bythegates:
 	if the player carries the car battery and the player carries the electromagnet:
 		say "The ghostly guard is apparently scared of the magnet and refuses to come near you. You very casually stroll out of the castle. CONGRATULATIONS from Anthony Maro, original programmer, and Erik Ylvisaker, inform port programmer.";
 		end the story finally;
 	otherwise:
-		say "A ghostly knight in a full suit of armor refuses to let you pass."
+		say "A ghostly knight in a full suit of armor refuses to let you pass.";
+		now seen the ghost is true.
 
 East Courtyard is a room. "This is the east courtyard. A small gap exists in the south wall of the castle. A domineering tower stands silhouetted against the sky, the entrance of which is covered in vines." It is east of courtyard. The printed name is "E. Courtyard".
+The gap is scenery in East Courtyard. Instead of entering the gap, try going south.
 
 Gap in Wall is a room. "You stand in a small gap in the wall of which the only exit is north." It is south of east courtyard. An electromagnet is in gap in wall. Understand "magnet" as the electromagnet.
 
-West Courtyard is a room. "This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines." It is west of courtyard. The printed name is "W. Courtyard".
+West Courtyard is a room. "This is the west courtyard. The stables are to the south, and a domineering tower stands silhouetted against the sky, the entrance of which is covered in vines." It is west of courtyard. The printed name is "W. Courtyard". The stablesfacade is scenery in West Courtyard. The printed name is "stables". Instead of entering the stablesfacade, try going south.
 
 Stables is a room. "You stand in the stables, which have apparently not been kept very clean."There is a garlic bloom in stables.
 
-stable door is a door. It is scenery. It is south of west courtyard and north of stables. It is closed and locked. It is unlocked by the key. Does the player mean unlocking stable door with something: it is very likely.
+The stable door is a door. It is scenery. It is south of west courtyard and north of stables. It is closed and locked. It is unlocked by the key. 
+Does the player mean unlocking stable door with something: it is very likely.
 
 Tool shed is a room. "There are various tools and other items of no or some interest in the tool shed. The entrance is north." North from tool shed is courtyard. South from courtyard is nowhere. Inside from courtyard is tool shed.
 There is an oil can in tool shed. There is an old shovel in tool shed.
@@ -77,7 +91,6 @@ Tower Door W is a door. The printed name is "tower door". It is not proper-named
 Does the player mean unlocking tower door w with something: it is very unlikely.
 
 Tower Upper W is a room. "The endless floors all appear the same in this tower. Up or down?" The printed name is "Tower". Tower Upper W is up from Tower Upper W . Tower Lower W is down from Tower Upper W.
-
 
 Tower Lower E is a room. "This is the bottom floor of one of the many towers in this castle. An exit is south of here." The printed name is "Tower".
 
@@ -117,3 +130,41 @@ Instead of pushing the red button:
 	say "You made a mistake!";
 	end the story.
 	
+Understand "help" as asking for help. Asking for help is an action applying to nothing.
+
+Instead of asking for help:
+	if the player is carrying the garlic:
+		if the player is carrying the electromagnet and the player is carrying the car battery:
+			if seen the ghost is true:
+				say "I bet that ghost would like to see your shiny new electromagnet.";
+			otherwise:
+				say "There's not much more I can help with! Try looking for an exit.";
+		otherwise if the player is carrying the electromagnet:
+			if tower door w is openable:
+				say "You already oiled the tower door, why don't you go inside?";
+			if the player is in west courtyard and tower door w is unopenable:
+				if the player is carrying the oil can:
+					say "Hmm.. that door is stuck. Maybe there's a way to lubricate it?";
+				otherwise:
+					say "That door looks like it could use some oil.";
+			otherwise if the player is in east courtyard and tower door e is unopenable:
+				if the player is carrying the oil can:
+					say "Hmm.. that door is stuck. Maybe there's a way to lubricate it?";
+				otherwise:
+					say "That door looks like it could use some oil.";
+			otherwise if tower door e is openable:
+				say "Wait, I thought there was another stuck door at the other tower.";
+			otherwise:
+				say "If you just had a source of power, that electromagnet you're lugging around might just come in handy. Wasn't there a stuck door around here? I wonder if you can get it unstuck.";
+		otherwise if the player is carrying the car battery:
+			say "The car battery seems fully charged, just waiting for something to power.";
+		otherwise:
+			say "There must be something around here you can use to escape.";
+	otherwise if the player is carrying the key:
+		say "Wasn't there a locked door around here somewhere?";
+	otherwise if the player is carrying the box:
+		say "The sure was an odd box. You might want to look at it more closely.";
+	otherwise:
+		say "Move by typing 'Go North', 'Go N', or just 'N'. You can also use South, East or West. Enter can be used to enter some buildings. Look At can be used to examine your surroundings or objects. Try an explore to see if you can find a way out of the castle.";
+		
+		

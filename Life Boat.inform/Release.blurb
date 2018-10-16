@@ -10,8 +10,8 @@ release to "C:\devel\Archive\Games\InteractiveFiction\Life Boat.materials\Releas
 
 ! Blorb instructions
 
-storyfile leafname "Life Boat.zblorb"
-storyfile "C:\devel\Archive\Games\InteractiveFiction\Life Boat.inform\Build\output.z8" include
+storyfile leafname "Life Boat.gblorb"
+storyfile "C:\devel\Archive\Games\InteractiveFiction\Life Boat.inform\Build\output.ulx" include
 ifiction "C:\devel\Archive\Games\InteractiveFiction\Life Boat.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
@@ -32,13 +32,13 @@ placeholder [BLURB] = "A work of interactive fiction."
 
 ! Website instructions
 
-placeholder [ENCODEDSTORYFILE] = "Life Boat.zblorb.js"
+placeholder [ENCODEDSTORYFILE] = "Life Boat.gblorb.js"
 template path "C:\devel\Archive\Games\InteractiveFiction\Life Boat.materials\Templates"
 template path "C:\Users\Erik\Documents\Inform\Templates"
 template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
 placeholder [INTERPRETERSCRIPTS] = " "
-interpreter "Parchment" "z"
-base64 "C:\devel\Archive\Games\InteractiveFiction\Life Boat.inform\Build\output.z8" to "C:\devel\Archive\Games\InteractiveFiction\Life Boat.materials\Release\interpreter\Life Boat.zblorb.js"
+interpreter "Quixe" "g"
+base64 "C:\devel\Archive\Games\InteractiveFiction\Life Boat.inform\Build\output.ulx" to "C:\devel\Archive\Games\InteractiveFiction\Life Boat.materials\Release\interpreter\Life Boat.gblorb.js"
 
 ! Website instructions
 

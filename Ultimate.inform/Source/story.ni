@@ -3,8 +3,6 @@
 This text adventure is unfinished and doesn't have a good name. I gave up on this when I realized that having lots of rooms in a text adventure isn't actually all that fun.I had fun programming the dog though.
 ]
 
-Release along with an interpreter.
-
 Volume 1 - Definitions
 
 Use scoring.
@@ -16,7 +14,6 @@ Release along with interpreter and the introductory booklet.
 [Include Player Experience Upgrade (for Glulx only) by Aaron Reed.
 Use normal blank lines.]
 
-Include Plurality by Emily Short.
 Include Conversation Package by Eric Eve.
 [Include Spellcasting by Jim Aikin. ]
 
@@ -68,7 +65,7 @@ Check inserting something into something else:
 A thing can be bulky. Things are usually not bulky.
 
 Instead of taking a bulky thing while the player carries a bulky thing (called the wrong thing):
-	say "[one of]It's going to be difficult to carry [the noun] while also carrying [the wrong thing].[or][The noun] is rather bulky, so it's going to be difficult to carry [it-them] while you're holding on to [the wrong thing].[at random]";
+	say "[one of]It's going to be difficult to carry [the noun] while also carrying [the wrong thing].[or][The noun] is rather bulky, so it's going to be difficult to carry [regarding the noun][them] while you're holding on to [the wrong thing].[at random]";
 	
 	
 Rule for printing a number of something (called the target) when the listing group size is greater than 7: 
@@ -137,11 +134,12 @@ Report reading a thing (called item):
 
 Section 3 - Sitting
 
+To sit is a verb.
 Sitting is an action applying to nothing.
 Understand "sit" as sitting.
 
 Report an actor sitting:
-	say "[The actor] sits down."
+	say "[The actor] [sit] down."
 
 Section 4 - Jumping
 
@@ -257,7 +255,7 @@ This is the room description body text with weather rule:
 			continue the action;
 		begin the printing the description of a dark room activity;
 		if handling the printing the description of a dark room activity,
-			issue miscellaneous library message number 17;
+			say "It's too dark to see anything.";
 		end the printing the description of a dark room activity;
 	otherwise if the visibility ceiling is the location:
 		if set to abbreviated room descriptions, continue the action;
@@ -446,7 +444,7 @@ An observation rule for throwing something at in the presence of a playful canin
 	say "[The dog] chases after [the interesting item of the dog]!";
 
 Rule for updating state of a canine (called the dog):
-	if the dog can not see the interesting item of the dog and a random chance of 2 in 3 succeeds:
+	if the dog cannot see the interesting item of the dog and a random chance of 2 in 3 succeeds:
 		now the interesting item of the dog is the empty object;
 	if the interesting item of the dog is the forbidden item of the dog:
 		now the interesting item of the dog is the empty object;
@@ -553,7 +551,7 @@ Carry out a canine (called the dog) acting intelligently:
 			if the dog is carried by the player:
 				say "[The dog] [one of]licks your face[or]snuggles in your arms[purely at random].";
 			otherwise if a random chance of 1 in 3 succeeds and the dog is small:
-				say "[The dog] is so excited to see you, [it-they] jumps right into your arms.";
+				say "[The dog] is so excited to see you, [regarding the dog][they] jumps right into your arms.";
 				if the player carries something bulky:
 					let heavy item be a random bulky thing carried by the player;
 					say "Unfortunately, you are unable to catch her since you are carrying [the heavy item]. [The dog] unceremoniously drops to the ground.";
@@ -607,10 +605,10 @@ Carry out a canine (called the dog) acting intelligently:
 					if handle is not nothing and the dog can touch the interesting item:
 						if the boredom of the dog is greater than 2:
 							silently try the dog dropping the handle;
-							say "[The dog] drops [the handle] at [possessive of the interesting item] feet and looks up at [it-them of the interesting item]. Apparently [it-they of the dog] wants [one of]to play[or]wants [it-they of the interesting item] to play with [it-them of the dog][purely at random].";
+							say "[The dog] drops [the handle] at [regarding the interesting item][possessive] feet and looks up at [them]. Apparently [regarding the dog][they] wants [one of]to play[or]wants [regarding the interesting item][they] to play with [regarding the dog][them][purely at random].";
 						otherwise:
 							increment the boredom of the dog;
-							say "[The dog] grows playfully. It looks like [it-they] wants to play keep-away with [the handle].";
+							say "[The dog] grows playfully. It looks like [regarding the dog][they] wants to play keep-away with [the handle].";
 					otherwise if the handle is nothing and a random chance of 1 in 2 succeeds and the dog can touch a dog toy:
 						try the dog taking a random dog toy that can be touched by the dog;
 					otherwise if the interesting item is inside a comfortable enterable supporter:
@@ -618,10 +616,10 @@ Carry out a canine (called the dog) acting intelligently:
 						try the dog entering a random supporter containing the interesting item;
 					otherwise:
 						increment the boredom of the dog;
-						say "[The dog] [one of]playfully nips at [possessive of the interesting item] heels[or]growls playfully[at random].";
+						say "[The dog] [one of]playfully nips at [regarding the interesting item][possessive] heels[or]growls playfully[at random].";
 				otherwise if the interesting item carries something edible (called food) and the dog can see the food:
 					increment the boredom of the dog;
-					say "[The dog] looks at [possessive of the interesting item] [food].";
+					say "[The dog] looks at [regarding the interesting item][possessive] [food].";
 					now the interesting item of the dog is the food;
 				otherwise:
 					increment the boredom of the dog;
@@ -635,7 +633,7 @@ Carry out a canine (called the dog) acting intelligently:
 		else if the dog can see the interesting item:
 			if the the interesting item is portable and the dog can touch the interesting item:
 				try the dog taking the interesting item;
-			otherwise if the dog can not touch the interesting item:
+			otherwise if the dog cannot touch the interesting item:
 				increase boredom of the dog by 1;
 				if boredom of the dog is greater than 3:
 					now the forbidden item of the dog is the interesting item;
@@ -648,7 +646,7 @@ Carry out a canine (called the dog) acting intelligently:
 				otherwise if the interesting item is carried by the player and the dog is visible:
 					say "[The dog] stares intently at you, waiting for you to give her [the interesting item].";
 				otherwise if the boredom of the dog is 3:
-					if the dog is visible, say "[The dog] gives a bark, hoping that you will offer [it-them] [the interesting item].";
+					if the dog is visible, say "[The dog] gives a bark, hoping that you will offer [them] [the interesting item].";
 				otherwise if the boredom of the dog is 2:
 					if the dog is visible, say "[The dog] stares wistfully at [the interesting item], giving a small whimper.";
 				otherwise if the interesting item is in an enterable container or the interesting item is in an enterable supporter:
@@ -660,7 +658,7 @@ Carry out a canine (called the dog) acting intelligently:
 				try the dog dropping a random thing carried by the dog;
 			otherwise: [ the interesting item is not portable, so let the dog gnaw on it ]
 				if the dog is visible:
-					say "[The dog] [one of]grabs onto [the interesting item] and begins tugging[or]tugs at [the interesting item][or]growls as [it-they] pulls at [the interesting item][or]gnaws on [the interesting item][at random].";
+					say "[The dog] [one of]grabs onto [the interesting item] and begins tugging[or]tugs at [the interesting item][or]growls as [they] [pull] at [the interesting item][or]gnaws on [the interesting item][at random].";
 				increment the boredom of the dog;
 				if the interesting item is a corpse:
 					let part be the detachable part of the interesting item;
@@ -775,7 +773,7 @@ Check taking something in the presence of a canine (called the dog) (this is the
 Check taking something held by a playful canine (called the dog) (this is the playful dogs want to play keep away with objects they carry rule):
 	if a random chance of 2 in 3 succeeds:
 		now the boredom of the dog is zero;
-		say "You try to take [the noun] from [the dog], but [it-they of the dog] leaps away at the last second." instead;
+		say "You try to take [the noun] from [the dog], but [regarding the dog][they] leaps away at the last second." instead;
 	otherwise if a random chance of 1 in 2 succeeds:
 		now the boredom of the dog is zero;
 		if the durability of the noun is less than 2:
@@ -860,7 +858,7 @@ Response of a canine (called dog) when given something:
 	if the noun is bulky:
 		say "[The noun] is much too big for [the dog] to carry.";
 	else if the dog carries something:
-		say "[The dog] is already carrying [the random thing carried by the dog] in [its-their of the dog] mouth.";
+		say "[The dog] is already carrying [the random thing carried by the dog] in [their] mouth.";
 	else if the noun interests the dog:
 		move the noun to the dog;
 		now the dog is skipping a turn;
@@ -946,16 +944,16 @@ Before reading a command when help-message is false:
 	
 After reading a command (this is the parse for help rule):
 	if the player's command matches the regular expression "^help":
-		let topic be word number two in the player's command;
-		if topic is empty:
-			if read-introduction is false, now topic is "introduction";
-			otherwise now topic is "topics";
-		if the topic is "introduction", now read-introduction is true;
+		let the_topic be word number two in the player's command;
+		if the_topic is empty:
+			if read-introduction is false, now the_topic is "introduction";
+			otherwise now the_topic is "topics";
+		if the_topic is "introduction", now read-introduction is true;
 		say "[as help system]";
-		unless there is a content corresponding to a name of topic in Table of Help Topics:
-			say "There is no help available for '[topic]'. [/p]";
-			now the topic is "topics";
-		say the content corresponding to a name of topic in Table of Help Topics;
+		unless there is a content corresponding to a name of the_topic in Table of Help Topics:
+			say "There is no help available for '[the_topic]'. [/p]";
+			now the_topic is "topics";
+		say the content corresponding to a name of the_topic in Table of Help Topics;
 		say "[as normal][/l]";
 		reject the player's command.
 
@@ -1305,14 +1303,22 @@ the dungeon is an unfamiliar subject.
 the charges is an unfamiliar subject.
 taxes are a subject.
 
+The tyrant king is a man. Understand "Darius" as the tyrant king. Understand "usurper" as the tyrant king.
+
+Grandfather is a familiar man.
+
+The fisherman is a man. "There is a man here, sitting on a rock with a fishing rod." The description is "He is a middle aged, balding man in relatively good shape." Understand "man" or "fisher" as the fisherman. 
+
+The wizard is a man. "A small, aged man with a long beard sits in a brown recliner, smoking a pipe. He was reading a book when you barged into his home, but despite your rudeness, he looks up with a smile on his face. Something about him gives you a warm, friendly feeling." The wizard is evil. The description is "He's rather old. His is wearing nondescript gray robe, tied at the waist with a brown cord. A thin wisp of smoke comes out of the tobacco pipe he holds." Understand "Theodorus", "man", "old man" as the wizard.
+
 Chapter 1 - The Lich
 
-The lich is a man. "You see a skeletal lich here, surrounded with a vague violet aura." The description is "You see before you a lich. [if the lich is unexamined]Not that you've ever seen such a creature before, but you know it must be a lich from your days of playing Advanced Caverns & Wyverns (2nd edition) as an angsty teen. This is a creature that was likely a very powerful magic-user in its life, and voluntarily invoked some sort of powerful and long lost magic ritual that allowed it to exchange its mortality for eternal life as the undead creature you see before you. [end if]This creature's physical appearance is not much more than a skeleton wearing tattered clothing, but it is enveloped by a vague violet aura which, oddly enough, is something that you can't quite see when looking directly at it but it is plainly visible out of the corner of your eye. The eyes of the lich are nothing more than orange pinpoints of light, floating in the eye sockets of its skull. [/p]As you examine the lich, you come to the uncomfortable realization that the creature is examining you in turn." The lich is not proper-named. The lich is undead and evil.
+The lich is a man. "You see a skeletal lich here, surrounded with a vaguel violet aura." The description is "You see before you a lich. [if the lich is unexamined]Not that you've ever seen such a creature before, but you know it must be a lich from your days of playing Advanced Caverns & Wyverns (2nd edition) as an angsty teen. This is a creature that was likely a very powerful magic-user in its life, and voluntarily invoked some sort of powerful and long lost magic ritual that allowed it to exchange its mortality for eternal life as the undead creature you see before you. [end if]This creature's physical appearance is not much more than a skeleton wearing tattered clothing, but it is enveloped by a vague violet aura which, oddly enough, is something that you can't quite see when looking directly at it but it is plainly visible out of the corner of your eye. The eyes of the lich are nothing more than orange pinpoints of light, floating in the eye sockets of its skull. [/p]As you examine the lich, you come to the uncomfortable realization that the creature is examining you in turn." The lich is not proper-named. The lich is undead and evil.
 
 lich-has-offered is a truth state that varies.
 lich-has-been-greeted is a truth state that varies.
 
-The ask-suggestions are { grandfather, wizard, king }.
+The ask-suggestions are { grandfather, wizard, king };
 
 Greeting response for the lich:
 	if lich-has-been-greeted is false:
@@ -1383,16 +1389,13 @@ Response of the lich when asked about taxes:
 
 Chapter 2 - The Wizard
 
-The wizard is a man. "A small, aged man with a long beard sits in a brown recliner, smoking a pipe. He was reading a book when you barged into his home, but despite your rudeness, he looks up with a smile on his face. Something about him gives you a warm, friendly feeling." The wizard is evil. The description is "He's rather old. His is wearing nondescript gray robe, tied at the waist with a brown cord. A thin wisp of smoke comes out of the tobacco pipe he holds." Understand "Theodorus", "man", "old man" as the wizard.
-
-The ask-suggestions are { grandfather, fate, Atari, lich, king, mermaid }.
-
 wizard-has-been-greeted is a truth state that varies.
 wizard-has-offered is a truth state that varies.
 wizard-familiar-with-grandfather is a truth state that varies.
 
 Default ask response for the wizard:
 	say "The wizard responds, 'I'm not really sure about that.'";
+	Now the ask-suggestions are { grandfather, fate, Atari, lich, king, mermaid }.
 	
 Greeting response for the wizard:
 	if wizard-has-been-greeted is false:
@@ -1537,17 +1540,9 @@ To say wizard-takes-castle:
 	
 Chapter 3 - The Tyrant King
 
-The tyrant king is a man. Understand "Darius" as the tyrant king. Understand "usurper" as the tyrant king.
-
-
-
 Chapter 4 - Grandfather
 
-Grandfather is a familiar man.
-
 Chapter 5 - The Fisherman
-
-The fisherman is a man. "There is a man here, sitting on a rock with a fishing rod." The description is "He is a middle aged, balding man in relatively good shape." Understand "man" or "fisher" as the fisherman. 
 
 The fishing rod is carried by the fisherman. The description is "It's nothing fancy."
 
@@ -2226,7 +2221,7 @@ There is a room called Outside the Tower. Outside the Tower is south of creepy f
 
 Chapter 2 - The den
 
-Tower Den is a room. "You are inside a lavish den, furnished with emaculate furniture and rugs. A fire burns in a fireplace on the west wall. There is a wonderful smell in the room, like a mixture of the aromas of hazelnuts and almonds." 
+Tower Den is a room. "You are inside a lavish den, furnished with immaculate furniture and rugs. A fire burns in a fireplace on the west wall. There is a wonderful smell in the room, like a mixture of the aromas of hazelnuts and almonds." 
 
 A brown luxury recliner is scenery in tower den. "The recliner looks to be well used by someone who loves to sit in it and read books for hours upon end."
 The wizard is here.
@@ -2262,5 +2257,4 @@ Atari is in west field.
 
 When play begins:
 	say "It's the strangest thing. You came to stay at your grandfather's house for a month during summer vacation, and two weeks ago while you were out watering the lawn your grandfather disappeared from inside the house and you haven't seen him since. The house is not large, and there is no back door. He's a fairly fit individual for his age, but there is no real reason to suspect that he went out through a window. You filed a missing persons report with the local police department but they have not managed to come up with anything yet either. While wandering through the house, you managed to find a trap door under the stairs, and upon entering you find yourself in..."
-	
 	
