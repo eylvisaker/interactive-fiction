@@ -3,609 +3,609 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6M62</string>
     <key>0</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"The Ultimate Text Adventure" by "Erik Ylvisaker"</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>6</integer>
         <key>Title</key><string>Volume 1 - Definitions</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>10</integer>
         <key>Title</key><string>Book 1 - Extensions and Release settings</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>23</integer>
         <key>Title</key><string>Book 2 - Global Definitions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>25</integer>
         <key>Title</key><string>Chapter 1 - Extending basic types</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>75</integer>
         <key>Title</key><string>Chapter 2 - New Types</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>88</integer>
         <key>Title</key><string>Chapter 3 - Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>7</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>101</integer>
         <key>Title</key><string>Section 1 - Coversation</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>8</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>117</integer>
         <key>Title</key><string>Section 2 - Reading</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>9</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>135</integer>
         <key>Title</key><string>Section 3 - Sitting</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>10</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>144</integer>
         <key>Title</key><string>Section 4 - Jumping</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>11</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>152</integer>
         <key>Title</key><string>Section 5 - Playing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>12</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>165</integer>
         <key>Title</key><string>Section 6 - Petting</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>13</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>175</integer>
         <key>Title</key><string>Section 7 - Throwing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>14</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>211</integer>
         <key>Title</key><string>Book 3 - Weather</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>15</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>312</integer>
         <key>Title</key><string>Book 4 - Dogs</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>16</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>314</integer>
         <key>Title</key><string>Chapter 1 - Definitions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>17</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>340</integer>
         <key>Title</key><string>Chapter 2 - Actions involving a dog</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>18</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>427</integer>
         <key>Title</key><string>Chapter 3 - AI for dogs</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>19</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>799</integer>
         <key>Title</key><string>Chapter 4 - Rules for dogs</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>20</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>801</integer>
         <key>Title</key><string>Section 1 - Touching rules</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>21</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>827</integer>
         <key>Title</key><string>Section 2 - Instead rules</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>22</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>835</integer>
         <key>Title</key><string>Section 3 - Check rules</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>23</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>840</integer>
         <key>Title</key><string>Section 4 - Reporting rules</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>24</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>855</integer>
         <key>Title</key><string>Section 5 - Giving things to dogs</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>25</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>885</integer>
         <key>Title</key><string>Chapter 5 - Persuasion for dogs</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>26</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>928</integer>
         <key>Title</key><string>Book 5 - Help system</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>27</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1019</integer>
         <key>Title</key><string>Volume 2 - Important Items and People</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>28</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1021</integer>
         <key>Title</key><string>Book 1 - Items</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>29</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1023</integer>
         <key>Title</key><string>Part 1 - Definitions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>30</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1027</integer>
         <key>Title</key><string>Part 2 - Item Descriptions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>31</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1029</integer>
         <key>Title</key><string>Chapter 1 - Magical Items</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>32</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1031</integer>
         <key>Title</key><string>Section 1 - Crown and Scepter</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>33</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1037</integer>
         <key>Title</key><string>Section 2 - Power Bracelet</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>34</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1047</integer>
         <key>Title</key><string>Section 3 - Spheres</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>35</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1070</integer>
         <key>Title</key><string>Section 4 - Others</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>36</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1075</integer>
         <key>Title</key><string>Chapter 2 - Journal Pages</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>37</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1128</integer>
         <key>Title</key><string>Chapter 3 - Advanced Technology</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>38</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1130</integer>
         <key>Title</key><string>Section 1 - Basic things</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>39</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1153</integer>
         <key>Title</key><string>Section 2 - Kayak</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>40</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1253</integer>
         <key>Title</key><string>Chapter 4 - Other important items</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>41</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1257</integer>
         <key>Title</key><string>Book 2 - Quests</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>42</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1269</integer>
         <key>Title</key><string>Book 3 - Actors</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>43</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1271</integer>
         <key>Title</key><string>Part 1 - Dogs</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>44</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1273</integer>
         <key>Title</key><string>Chapter 1 - Atari</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>45</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1295</integer>
         <key>Title</key><string>Part 2 - People</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>46</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1314</integer>
         <key>Title</key><string>Chapter 1 - The Lich</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>47</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1390</integer>
         <key>Title</key><string>Chapter 2 - The Wizard</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>48</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1541</integer>
         <key>Title</key><string>Chapter 3 - The Tyrant King</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>49</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1543</integer>
         <key>Title</key><string>Chapter 4 - Grandfather</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>50</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1545</integer>
         <key>Title</key><string>Chapter 5 - The Fisherman</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>51</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1627</integer>
         <key>Title</key><string>Chapter 6 - Castle Guards</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>52</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1629</integer>
         <key>Title</key><string>Chapter 7 - Townsfolk</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>53</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1631</integer>
         <key>Title</key><string>Book 3 - Scenes</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>54</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1649</integer>
         <key>Title</key><string>Volume 3 - Rooms</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>55</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1651</integer>
         <key>Title</key><string>Book 1 - Your grandfather's house</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>56</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1693</integer>
         <key>Title</key><string>Book 2 - The great forest</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>57</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1695</integer>
         <key>Title</key><string>Part 1 - The shack</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>58</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1697</integer>
         <key>Title</key><string>Chapter 1 - Basement</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>59</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1731</integer>
         <key>Title</key><string>Chapter 2 - Shack interior</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>60</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1769</integer>
         <key>Title</key><string>Part 2 - The field</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>61</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1805</integer>
         <key>Title</key><string>Part 3 - Forest path and stream</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>62</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1848</integer>
         <key>Title</key><string>Part 4 - Waterfall</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>63</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1905</integer>
         <key>Title</key><string>Part 5 - Region</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>64</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1914</integer>
         <key>Title</key><string>Book 3 - Beach and Ocean</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>65</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1917</integer>
         <key>Title</key><string>Part 1 - Mermaid Beach</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>66</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1951</integer>
         <key>Title</key><string>Part 2 - By the Stream</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>67</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1958</integer>
         <key>Title</key><string>Part 3 - Town Beach</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>68</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>1965</integer>
         <key>Title</key><string>Part 4 - Ocean</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>69</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2047</integer>
         <key>Title</key><string>Part 5 - Regions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>70</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2055</integer>
         <key>Title</key><string>Book 4 - The mausoleum</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>71</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2061</integer>
         <key>Title</key><string>Part 1 - The crypt</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>72</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2089</integer>
         <key>Title</key><string>Part 2 - Treasury</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>73</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2102</integer>
         <key>Title</key><string>Part 3 - Pit rooms</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>74</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2178</integer>
         <key>Title</key><string>Part 4 - Lich Room</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>75</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2194</integer>
         <key>Title</key><string>Part 5 - Burial chamber</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>76</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2198</integer>
         <key>Title</key><string>Part 6 - Mausoleum Entry</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>77</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2208</integer>
         <key>Title</key><string>Part 7 - Region</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>78</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2214</integer>
         <key>Title</key><string>Book 5 - Wizard's Tower</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>79</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2216</integer>
         <key>Title</key><string>Part 1 - Friendly Rooms</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>80</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2218</integer>
         <key>Title</key><string>Chapter 1 - Outside</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>81</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2222</integer>
         <key>Title</key><string>Chapter 2 - The den</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>82</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2238</integer>
         <key>Title</key><string>Part 2 - Unfriendly Rooms</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>83</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2241</integer>
         <key>Title</key><string>Part 3 - Region</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>84</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2245</integer>
         <key>Title</key><string>Book 6 - Town</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>85</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2249</integer>
         <key>Title</key><string>Book 7 - Castle</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>86</key><dict>
-        <key>Filename</key><string>C:\devel\Games\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
+        <key>Filename</key><string>C:\devel\InteractiveFiction\Ultimate.inform\Source\story.ni</string>
         <key>Line</key><integer>2253</integer>
         <key>Title</key><string>Volume 4 - Start up</string>
         <key>Level</key><integer>1</integer>
@@ -1521,407 +1521,407 @@
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>217</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Version 3 of Conversation Package by Eric Eve begins here</string>
+        <key>Title</key><string>Version 3/150410 of Conversation Package by Eric Eve begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>218</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
         <key>Line</key><integer>4</integer>
         <key>Title</key><string>Part 1 - Include Conv Nodes &amp; Suggestions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>219</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Part 2 - Modifications to Conv Nodes</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>220</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation package.i7x</string>
         <key>Line</key><integer>18</integer>
         <key>Title</key><string>Part 3 - New Rules for Conv Nodes</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>221</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Version 7 of Conversation Nodes by Eric Eve begins here</string>
+        <key>Title</key><string>Version 7/150410 of Conversation Nodes by Eric Eve begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>222</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>4</integer>
         <key>Title</key><string>Book 1 - Includes</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>223</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Book 2 - Definitions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>224</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>11</integer>
         <key>Title</key><string>Part 1 - The Convnode Kind</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>225</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>21</integer>
         <key>Title</key><string>Part 2 - The Null-Node</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>226</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>27</integer>
         <key>Title</key><string>Part 3 - Global Variables</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>227</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>41</integer>
         <key>Title</key><string>Book 2 - Node-Switching Machinery</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>228</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>70</integer>
         <key>Title</key><string>Book 3 - Rules</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>229</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>72</integer>
         <key>Title</key><string>Part 1 - Node-Specific Rules</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>230</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>111</integer>
         <key>Title</key><string>Part 2 - Responses for Closed Nodes</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>231</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation nodes.i7x</string>
         <key>Line</key><integer>161</integer>
         <key>Title</key><string>Part 3 - Responses for Open Nodes</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>232</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Version 7 of Conversation Suggestions by Eric Eve begins here</string>
+        <key>Title</key><string>Version 7/150610 of Conversation Suggestions by Eric Eve begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>233</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>4</integer>
         <key>Title</key><string>Book 1 - Includes</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>234</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>8</integer>
         <key>Title</key><string>Book 2 - Definitions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>235</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>10</integer>
         <key>Title</key><string>Part 1 - Suggestion Lists for People</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>236</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>16</integer>
         <key>Title</key><string>Part 2 - The misc-suggestion Kind</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>237</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>30</integer>
         <key>Title</key><string>Part 3 - Global Variables</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>238</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>42</integer>
         <key>Title</key><string>Book 2 - Some Useful Phrases</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>239</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>65</integer>
         <key>Title</key><string>Book 3 - Rules</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>240</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>67</integer>
         <key>Title</key><string>Part 1 - Suggestion List Construction Rules</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>241</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>98</integer>
         <key>Title</key><string>Part 2 - The Listing Suggested Topics Action</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>242</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>112</integer>
         <key>Title</key><string>Chapter 1a - Listing Suggested Topics (for use with Complex Listing by Emily Short)</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>243</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>116</integer>
         <key>Title</key><string>Section 1 - Carry Out Listing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>244</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>137</integer>
         <key>Title</key><string>Section 2 - Carry Out Listing Support Routines</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>245</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>148</integer>
         <key>Title</key><string>Chapter 1b - Listing Suggested Topics (for use without Complex Listing by Emily Short)</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>246</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation suggestions.i7x</string>
         <key>Line</key><integer>182</integer>
         <key>Title</key><string>Part 3 - Automatic Topic Suggestions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>247</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Version 7 of Conversation Responses by Eric Eve begins here</string>
+        <key>Title</key><string>Version 7/150410 of Conversation Responses by Eric Eve begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>248</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
         <key>Line</key><integer>6</integer>
         <key>Title</key><string>Part 1 - Define Five New Rulebooks</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>249</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
         <key>Line</key><integer>24</integer>
         <key>Title</key><string>Part 2 - Unlist some rules</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>250</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
         <key>Line</key><integer>34</integer>
         <key>Title</key><string>Part 3 - Some Useful Phrases</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>251</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation responses.i7x</string>
         <key>Line</key><integer>124</integer>
         <key>Title</key><string>Part 4 - Conversation Report Rules</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>252</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Version 3 of Conversational Defaults by Eric Eve begins here</string>
+        <key>Title</key><string>Version 3/150410 of Conversational Defaults by Eric Eve begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>253</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
         <key>Line</key><integer>4</integer>
         <key>Title</key><string>Book 1 - Includes</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>254</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
         <key>Line</key><integer>8</integer>
         <key>Title</key><string>Book 2 - Rules</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>255</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
         <key>Line</key><integer>10</integer>
         <key>Title</key><string>Part 1 - The Response Rule Books</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>256</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
         <key>Line</key><integer>43</integer>
         <key>Title</key><string>Part 2 - Rules to Relate the Rulebooks</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>257</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
         <key>Line</key><integer>72</integer>
         <key>Title</key><string>Part 3 - Report Rules to Use the Rulebooks</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>258</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversational defaults.i7x</string>
         <key>Line</key><integer>110</integer>
         <key>Title</key><string>Part 4 - Removing Some Existing Rules</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>259</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>Version 12 of Conversation Framework by Eric Eve begins here</string>
+        <key>Title</key><string>Version 11/150410 of Conversation Framework by Eric Eve begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>260</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>5</integer>
         <key>Title</key><string>Book 0 - Includes</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>261</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Book 1 - Actions for asking and telling about things</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>262</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>11</integer>
         <key>Title</key><string>Chapter 1 - Action Definitions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>263</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>13</integer>
         <key>Title</key><string>Section 1 - New actions and grammar</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>264</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>33</integer>
         <key>Title</key><string>Section 2 - Specifications</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>265</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>44</integer>
         <key>Title</key><string>Chapter 2 - Some useful default rules</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>266</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
         <key>Line</key><integer>59</integer>
         <key>Title</key><string>Book 2 - Abbreviated commands for addressing the current interlocutor</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>267</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>138</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>137</integer>
         <key>Title</key><string>Book 3 - Greeting Protocols</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>268</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>140</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>139</integer>
         <key>Title</key><string>Chapter 0 - New Verbs</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>269</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>144</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>143</integer>
         <key>Title</key><string>Chapter 1 - Greeting Definitions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>270</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>170</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>169</integer>
         <key>Title</key><string>Chapter 2 - Greeting</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>271</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>246</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>245</integer>
         <key>Title</key><string>Chapter 2 - Saying Goodbye</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>272</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>301</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>300</integer>
         <key>Title</key><string>Chapter 3 - Reset protocol each turn</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>273</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>307</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>306</integer>
         <key>Title</key><string>Book 4 - Yes, No and Sorry</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>274</key><dict>
-        <key>Filename</key><string>C:\Users\Erik\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
-        <key>Line</key><integer>337</integer>
+        <key>Filename</key><string>C:\Users\Erik\OneDrive\Documents\Inform\Extensions\eric eve\conversation framework.i7x</string>
+        <key>Line</key><integer>336</integer>
         <key>Title</key><string>Book 4 - Limiting what can be spoken about</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>

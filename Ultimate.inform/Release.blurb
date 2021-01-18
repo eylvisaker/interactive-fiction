@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\devel\Games\InteractiveFiction\Ultimate.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\devel\InteractiveFiction\Ultimate.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\devel\Games\InteractiveFiction\Ultimate.inform"
-release to "C:\devel\Games\InteractiveFiction\Ultimate.materials\Release"
+project folder "C:\devel\InteractiveFiction\Ultimate.inform"
+release to "C:\devel\InteractiveFiction\Ultimate.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Ultimate Text Adventure.gblorb"
-storyfile "C:\devel\Games\InteractiveFiction\Ultimate.inform\Build\output.ulx" include
-ifiction "C:\devel\Games\InteractiveFiction\Ultimate.inform\Metadata.iFiction" include
+storyfile "C:\devel\InteractiveFiction\Ultimate.inform\Build\output.ulx" include
+ifiction "C:\devel\InteractiveFiction\Ultimate.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
@@ -22,7 +22,7 @@ release file "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Small Cover.jp
 
 placeholder [IFID] = "6732C376-A275-11E0-9985-0021706D62BC"
 placeholder [RELEASE] = "1"
-placeholder [YEAR] = "2018"
+placeholder [YEAR] = "2021"
 placeholder [TITLE] = "The Ultimate Text Adventure"
 placeholder [AUTHOR] = "Erik Ylvisaker"
 placeholder [BLURB] = "A work of interactive fiction."
@@ -34,17 +34,17 @@ auxiliary "C:\Program Files (x86)\Inform 7\Internal\Miscellany\IntroductionToIF.
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "The Ultimate Text Adventure.gblorb.js"
-template path "C:\devel\Games\InteractiveFiction\Ultimate.materials\Templates"
-template path "C:\Users\Erik\Documents\Inform\Templates"
+template path "C:\devel\InteractiveFiction\Ultimate.materials\Templates"
+template path "C:\Users\Erik\OneDrive\Documents\Inform\Templates"
 template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
 placeholder [INTERPRETERSCRIPTS] = " "
 interpreter "Quixe" "g"
-base64 "C:\devel\Games\InteractiveFiction\Ultimate.inform\Build\output.ulx" to "C:\devel\Games\InteractiveFiction\Ultimate.materials\Release\interpreter\The Ultimate Text Adventure.gblorb.js"
+base64 "C:\devel\InteractiveFiction\Ultimate.inform\Build\output.ulx" to "C:\devel\InteractiveFiction\Ultimate.materials\Release\interpreter\The Ultimate Text Adventure.gblorb.js"
 
 ! Website instructions
 
-template path "C:\devel\Games\InteractiveFiction\Ultimate.materials\Templates"
-template path "C:\Users\Erik\Documents\Inform\Templates"
+template path "C:\devel\InteractiveFiction\Ultimate.materials\Templates"
+template path "C:\Users\Erik\OneDrive\Documents\Inform\Templates"
 template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
 css
 website "Standard"

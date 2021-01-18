@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-338"/>
+  <activeNode nodeId="node-322"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Ultimate</command>
-    <result xml:space="preserve">It's the strangest thing. You came to stay at your grandfather's house for a month during summer vacation, and two weeks ago while you were out watering the lawn your grandfather disappeared from inside the house and you haven't seen him since. The house is not large, and there is no back door. He's a fairly fit individual for his age, but there is no real reason to suspect that he went out through a window. You filed a missing persons report with the local police department but they have not managed to come up with anything yet either. While wandering through the house, you managed to find a trap door under the stairs, and upon entering you find yourself in...&#x000A;&#x000A;The Ultimate Text Adventure&#x000A;An Interactive Fiction by Erik Ylvisaker&#x000A;Release 1 / Serial number 180621 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Under the stairs&#x000A;You are in the secret room beneath the stairs in your grandfather's house. Shelves line the walls here, with a lot of junk on them. Your grandfather was an avid collector of antiques, but you can tell from the vast array of broken clocks and watches, scratched dishes, tarnished silverware and other junk before you that he doesn't have quite the eye for valuable antiques. There is so much junk that it would take a thorough search to find anything useful. One item does catch your eye, however, the full-length, oval-shaped mirror with a beautiful stand in the corner.&#x000A;&#x000A;You can type HELP anytime to get help.&#x000A;&gt;</result>
+    <result xml:space="preserve">It's the strangest thing. You came to stay at your grandfather's house for a month during summer vacation, and two weeks ago while you were out watering the lawn your grandfather disappeared from inside the house and you haven't seen him since. The house is not large, and there is no back door. He's a fairly fit individual for his age, but there is no real reason to suspect that he went out through a window. You filed a missing persons report with the local police department but they have not managed to come up with anything yet either. While wandering through the house, you managed to find a trap door under the stairs, and upon entering you find yourself in...&#x000A;&#x000A;The Ultimate Text Adventure&#x000A;An Interactive Fiction by Erik Ylvisaker&#x000A;Release 1 / Serial number 210118 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Under the stairs&#x000A;You are in the secret room beneath the stairs in your grandfather's house. Shelves line the walls here, with a lot of junk on them. Your grandfather was an avid collector of antiques, but you can tell from the vast array of broken clocks and watches, scratched dishes, tarnished silverware and other junk before you that he doesn't have quite the eye for valuable antiques. There is so much junk that it would take a thorough search to find anything useful. One item does catch your eye, however, the full-length, oval-shaped mirror with a beautiful stand in the corner.&#x000A;&#x000A;You can type HELP anytime to get help.&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-2"/>
-      <child nodeId="node-134"/>
-      <child nodeId="node-155"/>
+      <child nodeId="node-307"/>
+      <child nodeId="node-311"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -20,7 +20,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-3"/>
-      <child nodeId="node-166"/>
+      <child nodeId="node-134"/>
     </children>
   </item>
   <item nodeId="node-3">
@@ -1191,9 +1191,297 @@
     <commentary xml:space="preserve">Time passes.&#x000A;&#x000A;&#x000A;[** Programming error: tried to find the "parent" of nothing **]&#x000A;&gt;</commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-166">
+  <item nodeId="node-134">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">journal page 2: Taken.&#x000A;&#x000A;brass lantern: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;On the kitchen counter is a piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">sit on bed</command>
+    <result xml:space="preserve">You get onto the creaky bed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">get up</command>
+    <result xml:space="preserve">You get off the creaky bed.&#x000A;&#x000A;Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;On the kitchen counter is a piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">You sit down.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">take jerky</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the door of the shack)&#x000A;&#x000A;West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;You can see a small brown dog here.&#x000A;&#x000A;The small brown dog is so excited to see you, she jumps right into your arms.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">look dog</command>
+    <result xml:space="preserve">She's a little brown dog, with some white markings on her feet and neck that gives the appearance that she's wearing socks and a handkerchief. She is wearing a black collar. She is very excited.&#x000A;&#x000A;The small brown dog snuggles in your arms.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">drop dog</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;The small brown dog is so excited to see you, she jumps right into your arms.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">drop dog</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;The small brown dog apparently gives up on getting the piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">give jerky to dog</command>
+    <result xml:space="preserve">You give the piece of beef jerky to the small brown dog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog eats the piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;The small brown dog arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;The small brown dog arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog growls playfully.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">look forest</command>
+    <result xml:space="preserve">These are large pine trees, or some variety of coniferous species. It's hard to really tell, since you are not exactly an arborist.&#x000A;&#x000A;The small brown dog playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">kick dog</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">hit dog</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;The small brown dog growls playfully.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You walk carefully along the edge of the stream.&#x000A;&#x000A;Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;The small brown dog arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">attack dog</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;The small brown dog arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;The small brown dog arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog gnaws on the bovine skeleton.&#x000A;The small brown dog manages to pull off a bovine bone!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;The small brown dog arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;The small brown dog arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog gnaws at the bovine bone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">(first opening the tower door)&#x000A;&#x000A;Tower Den&#x000A;You are inside a lavish den, furnished with immaculate furniture and rugs. A fire burns in a fireplace on the west wall. There is a wonderful smell in the room, like a mixture of the aromas of hazelnuts and almonds.&#x000A;&#x000A;A small, aged man with a long beard sits in a brown recliner, smoking a pipe. He was reading a book when you barged into his home, but despite your rudeness, he looks up with a smile on his face. Something about him gives you a warm, friendly feeling.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(addressing the wizard)&#x000A;"Hi, um.. apologies for barging into your home," you mumble, a bit embarrassed that you have just committed your first breaking and entering offense. &#x000A;&#x000A;"No worries," says the wizard. "It's rare that I get company all the way out here, please make yourself at home." The wizard's friendliness makes you feel as though you were invited in to begin with.&#x000A;&#x000A;You have nothing specific in mind to discuss with wizard just now.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">ask about grandfather</command>
+    <result xml:space="preserve">"I'm looking for my grandfather," you mention. "I think he may have disappeared from around here a couple of weeks ago." &#x000A;&#x000A;"Ah, that is unfortunate," says the wizard. "Allow me to think for a moment." The wizard pauses, taking a few long puffs from his pipe. &#x000A;&#x000A;"You know, I recall hearing a rumor about some elderly person that was arrested from the field north of here. I can't remember what the charge was but he was probably thrown in the castle dungeon by that tyrant of a king."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1201,8 +1489,8 @@
     </children>
   </item>
   <item nodeId="node-167">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about chocolate</command>
+    <result xml:space="preserve">The wizard responds, "I'm not really sure about that."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1210,8 +1498,8 @@
     </children>
   </item>
   <item nodeId="node-168">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;On the kitchen counter is a piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1219,8 +1507,8 @@
     </children>
   </item>
   <item nodeId="node-169">
-    <command xml:space="preserve">sit on bed</command>
-    <result xml:space="preserve">You get onto the creaky bed.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1228,8 +1516,8 @@
     </children>
   </item>
   <item nodeId="node-170">
-    <command xml:space="preserve">get up</command>
-    <result xml:space="preserve">You get off the creaky bed.&#x000A;&#x000A;Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;On the kitchen counter is a piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;You can see a small brown dog here.&#x000A;&#x000A;The small brown dog licks the surface of the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1237,8 +1525,8 @@
     </children>
   </item>
   <item nodeId="node-171">
-    <command xml:space="preserve">sit</command>
-    <result xml:space="preserve">You sit down.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;The small brown dog drops the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1246,8 +1534,8 @@
     </children>
   </item>
   <item nodeId="node-172">
-    <command xml:space="preserve">take jerky</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter tower</command>
+    <result xml:space="preserve">Tower Den&#x000A;You are inside a lavish den, furnished with immaculate furniture and rugs. A fire burns in a fireplace on the west wall. There is a wonderful smell in the room, like a mixture of the aromas of hazelnuts and almonds.&#x000A;&#x000A;A small, aged man with a long beard sits in a brown recliner, smoking a pipe. He was reading a book when you barged into his home, but despite your rudeness, he looks up with a smile on his face. Something about him gives you a warm, friendly feeling.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1255,8 +1543,8 @@
     </children>
   </item>
   <item nodeId="node-173">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening the door of the shack)&#x000A;&#x000A;West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;You can see a small brown dog here.&#x000A;&#x000A;The small brown dog is so excited to see you, she jumps right into your arms.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(addressing the wizard)&#x000A;"Hello," you greet the wizard. &#x000A;&#x000A;"Hello again," he responds."&#x000A;&#x000A;(You could ask him about Grandfather, the small brown dog or the tyrant king.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1264,8 +1552,8 @@
     </children>
   </item>
   <item nodeId="node-174">
-    <command xml:space="preserve">look dog</command>
-    <result xml:space="preserve">She's a little brown dog, with some white markings on her feet and neck that gives the appearance that she's wearing socks and a handkerchief. She is wearing a black collar. She is very excited.&#x000A;&#x000A;The small brown dog snuggles in your arms.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about dog</command>
+    <result xml:space="preserve">The wizard responds, "I'm not really sure about that."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1273,8 +1561,8 @@
     </children>
   </item>
   <item nodeId="node-175">
-    <command xml:space="preserve">drop dog</command>
-    <result xml:space="preserve">Dropped.&#x000A;&#x000A;The small brown dog is so excited to see you, she jumps right into your arms.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about atari</command>
+    <result xml:space="preserve">"Have you seen the small brown dog around?" you ask. &#x000A;&#x000A;"Yes, I've seen that little brown dog running around." he replies. "Yes, yes, she seems very friendly." &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1282,8 +1570,8 @@
     </children>
   </item>
   <item nodeId="node-176">
-    <command xml:space="preserve">drop dog</command>
-    <result xml:space="preserve">Dropped.&#x000A;&#x000A;The small brown dog apparently gives up on getting the piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about king</command>
+    <result xml:space="preserve">"So what's the deal with the king?" you ask. &#x000A;&#x000A;"Ach, that fool of a ruler," the wizard spits out, his expression darkening for the first time. "He rules with impunity, overtaxing his people simply to line his own coffers. It was a dark day when he came into power." The wizard looks at you, a glint in his eye. "I'd stay out of his way, if I were you, lest you meet your grandfather's fate."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1291,8 +1579,8 @@
     </children>
   </item>
   <item nodeId="node-177">
-    <command xml:space="preserve">give jerky to dog</command>
-    <result xml:space="preserve">You give the piece of beef jerky to the small brown dog.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about grandfather</command>
+    <result xml:space="preserve">"I'm looking for my grandfather," you begin, but the wizard quickly interrupts you. &#x000A;&#x000A;"Yes, yes, I know, you said that already. Now where were we? Weren't we talking about the king? Or was it fate?"&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1300,8 +1588,8 @@
     </children>
   </item>
   <item nodeId="node-178">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog eats the piece of beef jerky.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about fate</command>
+    <result xml:space="preserve">"What do you mean, my grandfather's fate?" you ask, nervous about what that might mean. &#x000A;&#x000A;"Oh sorry, I didn't mean to alarm you," the wizard responds. "I'm sure he's alive and well. The king has his faults, but he is not quick to execute interlopers." The wizard pauses, and stares at you thoughtfully. "You know," he begins, "I might be able to help you to rescue your grandfather. The king was once a student of mine, and in spite of our differences, I still have some sway with him," the wizard pauses, puffing on his pipe. "There are two important national artifacts that have been missing for several years. If you could bring them to me I will speak to the king on your behalf. I'm sure that he would be willing to grant a favor to the person who finds and returns them."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1309,8 +1597,8 @@
     </children>
   </item>
   <item nodeId="node-179">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;The small brown dog arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about artifacts</command>
+    <result xml:space="preserve">"What artifacts are you looking for?" you ask. &#x000A;&#x000A;"There are two of them," the wizard repeats. He pauses thoughtfully, taking one long puff on his pipe. "I am looking for a crown and a scepter. They both belonged to a previous king from a few generations back, a fair and just man by the name of Dalton. His crown and scepter both disappeared when he died. Bring me those items, and I will see that your grandfather is returned to you." The wizard stares at you. You are suddenly awash with the feeling that this is an individual with considerable power.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1318,8 +1606,8 @@
     </children>
   </item>
   <item nodeId="node-180">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about crown</command>
+    <result xml:space="preserve">"What can you tell me about the crown?" you ask. &#x000A;&#x000A;"Ah the crown," the wizard sighs. "It was a wonderfully beautiful object to behold. It's made of solid gold, and encrusted with all manner of rare and valuable jewels, but it is light-weight and slim for a real elegant look. I saw it up close once, you know, when I was but a lad who had barely seen eight summers. Some say it had some sort of magical power. Rumor has it, the crown was buried with the king when he died." The wizard puffs on his pipe again and lets out a sigh. "Unfortunately, in these dark times thievery runs rampant. The mausoleum where he is buried has been thoroughly ransack by brigands, and this wonderful national treasure has long been lost."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1327,8 +1615,8 @@
     </children>
   </item>
   <item nodeId="node-181">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;The small brown dog arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask about scepter</command>
+    <result xml:space="preserve">"What about the scepter?" you ask. &#x000A;&#x000A;The wizard pauses for a moment, collecting his thoughts. "Little is really known about the scepter. The former king always carried it with him, but it was rarely prominently displayed. There was some rumor that after his death it fell into the possession of a friend of his, who captained a ship. One day, that ship set sail and never returned. Some say the ship was sunk in a great battle by pirates, others say the ship ran aground on a reef somewhere and the crew ended up starving." &#x000A;&#x000A;Another long drag on the pipe, and then the wizard shrugs, "Perhaps they simply found treasure somewhere and have retired to some island paradise. No one even knows if the scepter was on the ship when it disappeared." The wizard stares off into the distance, as if remembering some long-forgotten painful event. "Even with my skill with magical scrying, I have been unable to locate the scepter."&#x000A;&#x000A;The wizard looks at you pointedly, leaning forward in his chair. "So what do you say? Will you look for the crown and scepter?"&#x000A;&#x000A;(You could say yes or no; or ask him about the jeweled crown or the scepter.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1336,8 +1624,8 @@
     </children>
   </item>
   <item nodeId="node-182">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">say yes</command>
+    <result xml:space="preserve">(to the wizard)&#x000A;"Yes, if it will help me get my grandfather back, I'll do it," you reply in the affirmative. &#x000A;&#x000A;"Excellent!" announces the wizard. "I have a gift for you. I suspect you will need to return to your own home to gather things which may help you find the crown and scepter. Somewhere near the waterfall there is a key for a lost traveler to return home, but that such a key can only be found during a terrible storm. I will give you this wand of weather-changing. It's very easy to use, all you need to do is wave the wand and it will effect a change in the weather. I'd suggest digging in the sand around the banks near the waterfall for that key." &#x000A;&#x000A;The wizard holds out his hand offering you the wand, which you take carefully. &#x000A;&#x000A;"Be sure and bring the crown and scepter back to me," the wizard continues, "and be careful who you show them to. There are many out there who would think nothing of killing you to obtain these artifacts."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1345,8 +1633,8 @@
     </children>
   </item>
   <item nodeId="node-183">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1354,8 +1642,8 @@
     </children>
   </item>
   <item nodeId="node-184">
-    <command xml:space="preserve">look forest</command>
-    <result xml:space="preserve">These are large pine trees, or some variety of coniferous species. It's hard to really tell, since you are not exactly an arborist.&#x000A;&#x000A;The small brown dog playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;You can see a small brown dog here.&#x000A;&#x000A;The small brown dog is so excited to see you, she jumps right into your arms.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1363,8 +1651,8 @@
     </children>
   </item>
   <item nodeId="node-185">
-    <command xml:space="preserve">kick dog</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wave wand</command>
+    <result xml:space="preserve">It is now clear skies.&#x000A;&#x000A;&#x000A;The small brown dog snuggles in your arms.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1372,8 +1660,8 @@
     </children>
   </item>
   <item nodeId="node-186">
-    <command xml:space="preserve">hit dog</command>
-    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;The small brown dog growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wave wand</command>
+    <result xml:space="preserve">It is now clear skies.&#x000A;&#x000A;&#x000A;The small brown dog snuggles in your arms.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1381,8 +1669,8 @@
     </children>
   </item>
   <item nodeId="node-187">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You walk carefully along the edge of the stream.&#x000A;&#x000A;Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;The small brown dog arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1390,8 +1678,8 @@
     </children>
   </item>
   <item nodeId="node-188">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a small brown dog&#x000A;  a wand of weather-changing&#x000A;  a brass lantern&#x000A;  journal page 2&#x000A;&#x000A;The small brown dog wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1399,8 +1687,8 @@
     </children>
   </item>
   <item nodeId="node-189">
-    <command xml:space="preserve">attack dog</command>
-    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at dog</command>
+    <result xml:space="preserve">She's a little brown dog, with some white markings on her feet and neck that gives the appearance that she's wearing socks and a handkerchief. She is wearing a black collar. She is playful.&#x000A;&#x000A;The small brown dog growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1408,8 +1696,8 @@
     </children>
   </item>
   <item nodeId="node-190">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;The small brown dog arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at collar</command>
+    <result xml:space="preserve">It's a black dog collar. Hanging from the hook on the collar is a small tag which reads "Atari."&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1417,8 +1705,8 @@
     </children>
   </item>
   <item nodeId="node-191">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;The small brown dog arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1426,8 +1714,8 @@
     </children>
   </item>
   <item nodeId="node-192">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog gnaws on the bovine skeleton.&#x000A;The small brown dog manages to pull off a bovine bone!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1435,8 +1723,8 @@
     </children>
   </item>
   <item nodeId="node-193">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;The small brown dog arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1444,8 +1732,8 @@
     </children>
   </item>
   <item nodeId="node-194">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;The small brown dog arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1453,8 +1741,8 @@
     </children>
   </item>
   <item nodeId="node-195">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;The small brown dog gnaws at the bovine bone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari tugs at the bovine skeleton.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1462,8 +1750,8 @@
     </children>
   </item>
   <item nodeId="node-196">
-    <command xml:space="preserve">enter tower</command>
-    <result xml:space="preserve">(first opening the tower door)&#x000A;&#x000A;Tower Den&#x000A;You are inside a lavish den, furnished with immaculate furniture and rugs. A fire burns in a fireplace on the west wall. There is a wonderful smell in the room, like a mixture of the aromas of hazelnuts and almonds.&#x000A;&#x000A;A small, aged man with a long beard sits in a brown recliner, smoking a pipe. He was reading a book when you barged into his home, but despite your rudeness, he looks up with a smile on his face. Something about him gives you a warm, friendly feeling.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari grabs onto the bovine skeleton and begins tugging.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1471,8 +1759,8 @@
     </children>
   </item>
   <item nodeId="node-197">
-    <command xml:space="preserve">say hello</command>
-    <result xml:space="preserve">(addressing the wizard)&#x000A;"Hi, um.. apologies for barging into your home," you mumble, a bit embarrassed that you have just committed your first breaking and entering offense. &#x000A;&#x000A;"No worries," says the wizard. "It's rare that I get company all the way out here, please make yourself at home." The wizard's friendliness makes you feel as though you were invited in to begin with.&#x000A;&#x000A;You have nothing specific in mind to discuss with wizard just now.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari tugs at the bovine skeleton.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1480,8 +1768,8 @@
     </children>
   </item>
   <item nodeId="node-198">
-    <command xml:space="preserve">ask about grandfather</command>
-    <result xml:space="preserve">"I'm looking for my grandfather," you mention. "I think he may have disappeared from around here a couple of weeks ago." &#x000A;&#x000A;"Ah, that is unfortunate," says the wizard. "Allow me to think for a moment." The wizard pauses, taking a few long puffs from his pipe. &#x000A;&#x000A;"You know, I recall hearing a rumor about some elderly person that was arrested from the field north of here. I can't remember what the charge was but he was probably thrown in the castle dungeon by that tyrant of a king."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Atari gnaws on the bovine skeleton.&#x000A;Atari manages to pull off a bovine bone!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1489,8 +1777,8 @@
     </children>
   </item>
   <item nodeId="node-199">
-    <command xml:space="preserve">ask about chocolate</command>
-    <result xml:space="preserve">The wizard responds, "I'm not really sure about that."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Atari gnaws at the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1498,8 +1786,8 @@
     </children>
   </item>
   <item nodeId="node-200">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at atari</command>
+    <result xml:space="preserve">She's a little brown dog, with some white markings on her feet and neck that gives the appearance that she's wearing socks and a handkerchief. She is wearing a black collar. She is carrying a bovine bone. She is playful.&#x000A;&#x000A;Atari drops the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1507,8 +1795,8 @@
     </children>
   </item>
   <item nodeId="node-201">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1516,8 +1804,8 @@
     </children>
   </item>
   <item nodeId="node-202">
-    <command xml:space="preserve">exit</command>
-    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;You can see a small brown dog here.&#x000A;&#x000A;The small brown dog licks the surface of the bovine bone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1525,8 +1813,8 @@
     </children>
   </item>
   <item nodeId="node-203">
-    <command xml:space="preserve">enter</command>
-    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;The small brown dog drops the bovine bone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wave wand</command>
+    <result xml:space="preserve">It is now clear skies.&#x000A;&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1534,8 +1822,8 @@
     </children>
   </item>
   <item nodeId="node-204">
-    <command xml:space="preserve">enter tower</command>
-    <result xml:space="preserve">Tower Den&#x000A;You are inside a lavish den, furnished with immaculate furniture and rugs. A fire burns in a fireplace on the west wall. There is a wonderful smell in the room, like a mixture of the aromas of hazelnuts and almonds.&#x000A;&#x000A;A small, aged man with a long beard sits in a brown recliner, smoking a pipe. He was reading a book when you barged into his home, but despite your rudeness, he looks up with a smile on his face. Something about him gives you a warm, friendly feeling.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1543,8 +1831,8 @@
     </children>
   </item>
   <item nodeId="node-205">
-    <command xml:space="preserve">say hello</command>
-    <result xml:space="preserve">(addressing the wizard)&#x000A;"Hello," you greet the wizard. &#x000A;&#x000A;"Hello again," he responds."&#x000A;&#x000A;(You could ask him about Grandfather, the small brown dog or the tyrant king.)&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1552,8 +1840,8 @@
     </children>
   </item>
   <item nodeId="node-206">
-    <command xml:space="preserve">ask about dog</command>
-    <result xml:space="preserve">The wizard responds, "I'm not really sure about that."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1561,8 +1849,8 @@
     </children>
   </item>
   <item nodeId="node-207">
-    <command xml:space="preserve">ask about atari</command>
-    <result xml:space="preserve">"Have you seen the small brown dog around?" you ask. &#x000A;&#x000A;"Yes, I've seen that little brown dog running around." he replies. "Yes, yes, she seems very friendly." &#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1570,8 +1858,8 @@
     </children>
   </item>
   <item nodeId="node-208">
-    <command xml:space="preserve">ask about king</command>
-    <result xml:space="preserve">"So what's the deal with the king?" you ask. &#x000A;&#x000A;"Ach, that fool of a ruler," the wizard spits out, his expression darkening for the first time. "He rules with impunity, overtaxing his people simply to line his own coffers. It was a dark day when he came into power." The wizard looks at you, a glint in his eye. "I'd stay out of his way, if I were you, lest you meet your grandfather's fate."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1579,8 +1867,8 @@
     </children>
   </item>
   <item nodeId="node-209">
-    <command xml:space="preserve">ask about grandfather</command>
-    <result xml:space="preserve">"I'm looking for my grandfather," you begin, but the wizard quickly interrupts you. &#x000A;&#x000A;"Yes, yes, I know, you said that already. Now where were we? Weren't we talking about the king? Or was it fate?"&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1588,8 +1876,8 @@
     </children>
   </item>
   <item nodeId="node-210">
-    <command xml:space="preserve">ask about fate</command>
-    <result xml:space="preserve">"What do you mean, my grandfather's fate?" you ask, nervous about what that might mean. &#x000A;&#x000A;"Oh sorry, I didn't mean to alarm you," the wizard responds. "I'm sure he's alive and well. The king has his faults, but he is not quick to execute interlopers." The wizard pauses, and stares at you thoughtfully. "You know," he begins, "I might be able to help you to rescue your grandfather. The king was once a student of mine, and in spite of our differences, I still have some sway with him," the wizard pauses, puffing on his pipe. "There are two important national artifacts that have been missing for several years. If you could bring them to me I will speak to the king on your behalf. I'm sure that he would be willing to grant a favor to the person who finds and returns them."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1597,8 +1885,8 @@
     </children>
   </item>
   <item nodeId="node-211">
-    <command xml:space="preserve">ask about artifacts</command>
-    <result xml:space="preserve">"What artifacts are you looking for?" you ask. &#x000A;&#x000A;"There are two of them," the wizard repeats. He pauses thoughtfully, taking one long puff on his pipe. "I am looking for a crown and a scepter. They both belonged to a previous king from a few generations back, a fair and just man by the name of Dalton. His crown and scepter both disappeared when he died. Bring me those items, and I will see that your grandfather is returned to you." The wizard stares at you. You are suddenly awash with the feeling that this is an individual with considerable power.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1606,8 +1894,8 @@
     </children>
   </item>
   <item nodeId="node-212">
-    <command xml:space="preserve">ask about crown</command>
-    <result xml:space="preserve">"What can you tell me about the crown?" you ask. &#x000A;&#x000A;"Ah the crown," the wizard sighs. "It was a wonderfully beautiful object to behold. It's made of solid gold, and encrusted with all manner of rare and valuable jewels, but it is light-weight and slim for a real elegant look. I saw it up close once, you know, when I was but a lad who had barely seen eight summers. Some say it had some sort of magical power. Rumor has it, the crown was buried with the king when he died." The wizard puffs on his pipe again and lets out a sigh. "Unfortunately, in these dark times thievery runs rampant. The mausoleum where he is buried has been thoroughly ransack by brigands, and this wonderful national treasure has long been lost."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Beach (south end)&#x000A;You are at the south end of a nice beach. A vast ocean stretches out to the west. This end of the beach is surrounded by rocks, blocking all passage except to the north. &#x000A;&#x000A;It looks as though the body of a mermaid has washed up on shore.&#x000A;&#x000A;A canoe in rather poor shape is overturned on the beach.&#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1615,8 +1903,8 @@
     </children>
   </item>
   <item nodeId="node-213">
-    <command xml:space="preserve">ask about scepter</command>
-    <result xml:space="preserve">"What about the scepter?" you ask. &#x000A;&#x000A;The wizard pauses for a moment, collecting his thoughts. "Little is really known about the scepter. The former king always carried it with him, but it was rarely prominently displayed. There was some rumor that after his death it fell into the possession of a friend of his, who captained a ship. One day, that ship set sail and never returned. Some say the ship was sunk in a great battle by pirates, others say the ship ran aground on a reef somewhere and the crew ended up starving." &#x000A;&#x000A;Another long drag on the pipe, and then the wizard shrugs, "Perhaps they simply found treasure somewhere and have retired to some island paradise. No one even knows if the scepter was on the ship when it disappeared." The wizard stares off into the distance, as if remembering some long-forgotten painful event. "Even with my skill with magical scrying, I have been unable to locate the scepter."&#x000A;&#x000A;The wizard looks at you pointedly, leaning forward in his chair. "So what do you say? Will you look for the crown and scepter?"&#x000A;&#x000A;(You could say yes or no; or ask him about the jeweled crown or the scepter.)&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look mermaid</command>
+    <result xml:space="preserve">Yes, closer examination reveals that it is actually the body of a mermaid. The smell is an odd mixture of rotting human flesh and decaying fish matter.&#x000A;&#x000A;You notice she is wearing a bracelet.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1624,8 +1912,8 @@
     </children>
   </item>
   <item nodeId="node-214">
-    <command xml:space="preserve">say yes</command>
-    <result xml:space="preserve">(to the wizard)&#x000A;"Yes, if it will help me get my grandfather back, I'll do it," you reply in the affirmative. &#x000A;&#x000A;"Excellent!" announces the wizard. "I have a gift for you. I suspect you will need to return to your own home to gather things which may help you find the crown and scepter. Somewhere near the waterfall there is a key for a lost traveler to return home, but that such a key can only be found during a terrible storm. I will give you this wand of weather-changing. It's very easy to use, all you need to do is wave the wand and it will effect a change in the weather. I'd suggest digging in the sand around the banks near the waterfall for that key." &#x000A;&#x000A;The wizard holds out his hand offering you the wand, which you take carefully. &#x000A;&#x000A;"Be sure and bring the crown and scepter back to me," the wizard continues, "and be careful who you show them to. There are many out there who would think nothing of killing you to obtain these artifacts."&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take bracelet</command>
+    <result xml:space="preserve">As you reach for the power bracelet, Atari leaps in quickly and grabs it first.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1633,8 +1921,8 @@
     </children>
   </item>
   <item nodeId="node-215">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari, drop it</command>
+    <result xml:space="preserve">Atari drops the power bracelet.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1642,8 +1930,8 @@
     </children>
   </item>
   <item nodeId="node-216">
-    <command xml:space="preserve">exit</command>
-    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;You can see a small brown dog here.&#x000A;&#x000A;The small brown dog is so excited to see you, she jumps right into your arms.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take bracelet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;Atari growls as she pulls at the mermaid carcass.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1651,8 +1939,8 @@
     </children>
   </item>
   <item nodeId="node-217">
-    <command xml:space="preserve">wave wand</command>
-    <result xml:space="preserve">It is now clear skies.&#x000A;&#x000A;&#x000A;The small brown dog snuggles in your arms.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari, stop</command>
+    <result xml:space="preserve">Atari does not respond.&#x000A;&#x000A;Atari grabs onto the mermaid carcass and begins tugging.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1660,8 +1948,8 @@
     </children>
   </item>
   <item nodeId="node-218">
-    <command xml:space="preserve">wave wand</command>
-    <result xml:space="preserve">It is now clear skies.&#x000A;&#x000A;&#x000A;The small brown dog snuggles in your arms.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take atari</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1669,8 +1957,8 @@
     </children>
   </item>
   <item nodeId="node-219">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">It's too rocky to proceed in that direction.&#x000A;&#x000A;Atari wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1678,8 +1966,8 @@
     </children>
   </item>
   <item nodeId="node-220">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a small brown dog&#x000A;  a wand of weather-changing&#x000A;  a brass lantern&#x000A;  journal page 2&#x000A;&#x000A;The small brown dog wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take atari</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1687,8 +1975,8 @@
     </children>
   </item>
   <item nodeId="node-221">
-    <command xml:space="preserve">look at dog</command>
-    <result xml:space="preserve">She's a little brown dog, with some white markings on her feet and neck that gives the appearance that she's wearing socks and a handkerchief. She is wearing a black collar. She is playful.&#x000A;&#x000A;The small brown dog growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1696,8 +1984,8 @@
     </children>
   </item>
   <item nodeId="node-222">
-    <command xml:space="preserve">look at collar</command>
-    <result xml:space="preserve">It's a black dog collar. Hanging from the hook on the collar is a small tag which reads "Atari."&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't exactly swim across the ocean, you know.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1705,8 +1993,8 @@
     </children>
   </item>
   <item nodeId="node-223">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You could wade across the stream, but the shore on the other side looks to be too covered in vegetation for there to be anywhere for you to go. Maybe there is a place further east where you can wade across the stream.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1714,8 +2002,8 @@
     </children>
   </item>
   <item nodeId="node-224">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1723,8 +2011,8 @@
     </children>
   </item>
   <item nodeId="node-225">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1732,8 +2020,8 @@
     </children>
   </item>
   <item nodeId="node-226">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1741,8 +2029,8 @@
     </children>
   </item>
   <item nodeId="node-227">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari tugs at the bovine skeleton.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1751,7 +2039,7 @@
   </item>
   <item nodeId="node-228">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari grabs onto the bovine skeleton and begins tugging.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1759,8 +2047,8 @@
     </children>
   </item>
   <item nodeId="node-229">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari tugs at the bovine skeleton.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wade</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1768,8 +2056,8 @@
     </children>
   </item>
   <item nodeId="node-230">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Atari gnaws on the bovine skeleton.&#x000A;Atari manages to pull off a bovine bone!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">cross stream</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1777,8 +2065,8 @@
     </children>
   </item>
   <item nodeId="node-231">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Atari gnaws at the bovine bone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the northeast.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1786,8 +2074,8 @@
     </children>
   </item>
   <item nodeId="node-232">
-    <command xml:space="preserve">look at atari</command>
-    <result xml:space="preserve">She's a little brown dog, with some white markings on her feet and neck that gives the appearance that she's wearing socks and a handkerchief. She is wearing a black collar. She is carrying a bovine bone. She is playful.&#x000A;&#x000A;Atari drops the bovine bone.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1795,8 +2083,8 @@
     </children>
   </item>
   <item nodeId="node-233">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1804,8 +2092,8 @@
     </children>
   </item>
   <item nodeId="node-234">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1813,8 +2101,8 @@
     </children>
   </item>
   <item nodeId="node-235">
-    <command xml:space="preserve">wave wand</command>
-    <result xml:space="preserve">It is now clear skies.&#x000A;&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1822,8 +2110,8 @@
     </children>
   </item>
   <item nodeId="node-236">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You walk carefully along the edge of the stream.&#x000A;&#x000A;Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1832,7 +2120,7 @@
   </item>
   <item nodeId="node-237">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1840,8 +2128,8 @@
     </children>
   </item>
   <item nodeId="node-238">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1849,8 +2137,8 @@
     </children>
   </item>
   <item nodeId="node-239">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1858,8 +2146,8 @@
     </children>
   </item>
   <item nodeId="node-240">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;You can also see a bovine bone here.&#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1867,8 +2155,8 @@
     </children>
   </item>
   <item nodeId="node-241">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take atari</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1876,8 +2164,8 @@
     </children>
   </item>
   <item nodeId="node-242">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter shack</command>
+    <result xml:space="preserve">You'll have to get closer first. Try going west.&#x000A;&#x000A;Atari wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1886,7 +2174,7 @@
   </item>
   <item nodeId="node-243">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1894,8 +2182,8 @@
     </children>
   </item>
   <item nodeId="node-244">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Beach (south end)&#x000A;You are at the south end of a nice beach. A vast ocean stretches out to the west. This end of the beach is surrounded by rocks, blocking all passage except to the north. &#x000A;&#x000A;It looks as though the body of a mermaid has washed up on shore.&#x000A;&#x000A;A canoe in rather poor shape is overturned on the beach.&#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter shack</command>
+    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is open. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;Atari arrives from the outside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1903,8 +2191,8 @@
     </children>
   </item>
   <item nodeId="node-245">
-    <command xml:space="preserve">look mermaid</command>
-    <result xml:space="preserve">Yes, closer examination reveals that it is actually the body of a mermaid. The smell is an odd mixture of rotting human flesh and decaying fish matter.&#x000A;&#x000A;You notice she is wearing a bracelet.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w. close door</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;You close the shabby door.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1912,8 +2200,8 @@
     </children>
   </item>
   <item nodeId="node-246">
-    <command xml:space="preserve">take bracelet</command>
-    <result xml:space="preserve">As you reach for the power bracelet, Atari leaps in quickly and grabs it first.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1921,8 +2209,8 @@
     </children>
   </item>
   <item nodeId="node-247">
-    <command xml:space="preserve">atari, drop it</command>
-    <result xml:space="preserve">Atari drops the power bracelet.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s. close door</command>
+    <result xml:space="preserve">(first opening the door of the shack)&#x000A;&#x000A;West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the inside.&#x000A;&#x000A;You close the shabby door.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1930,8 +2218,8 @@
     </children>
   </item>
   <item nodeId="node-248">
-    <command xml:space="preserve">take bracelet</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;Atari growls as she pulls at the mermaid carcass.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1939,8 +2227,8 @@
     </children>
   </item>
   <item nodeId="node-249">
-    <command xml:space="preserve">atari, stop</command>
-    <result xml:space="preserve">Atari does not respond.&#x000A;&#x000A;Atari grabs onto the mermaid carcass and begins tugging.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1948,8 +2236,8 @@
     </children>
   </item>
   <item nodeId="node-250">
-    <command xml:space="preserve">take atari</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter shack</command>
+    <result xml:space="preserve">(first opening the door of the shack)&#x000A;&#x000A;Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is open. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;Atari arrives from the outside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1957,8 +2245,8 @@
     </children>
   </item>
   <item nodeId="node-251">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">It's too rocky to proceed in that direction.&#x000A;&#x000A;Atari wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari, stay</command>
+    <result xml:space="preserve">Atari does not respond.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1966,8 +2254,8 @@
     </children>
   </item>
   <item nodeId="node-252">
-    <command xml:space="preserve">take atari</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">stari stop</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1975,8 +2263,8 @@
     </children>
   </item>
   <item nodeId="node-253">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari stop</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1984,8 +2272,8 @@
     </children>
   </item>
   <item nodeId="node-254">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't exactly swim across the ocean, you know.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari, stop</command>
+    <result xml:space="preserve">Atari does not respond.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1993,8 +2281,8 @@
     </children>
   </item>
   <item nodeId="node-255">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You could wade across the stream, but the shore on the other side looks to be too covered in vegetation for there to be anywhere for you to go. Maybe there is a place further east where you can wade across the stream.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari, sit</command>
+    <result xml:space="preserve">Atari sits down.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2002,8 +2290,8 @@
     </children>
   </item>
   <item nodeId="node-256">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the inside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2012,7 +2300,7 @@
   </item>
   <item nodeId="node-257">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2020,8 +2308,8 @@
     </children>
   </item>
   <item nodeId="node-258">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Narrow Forest Path&#x000A;You are in the midst of a dense forest, on a narrow path. The path heads off toward a field in the northeast, and to the west heads deeper into the woods. You can hear birds chirping in the trees, and the sound of rushing water nearby. &#x000A;&#x000A;Atari arrives from the northeast.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2030,7 +2318,7 @@
   </item>
   <item nodeId="node-259">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2038,8 +2326,8 @@
     </children>
   </item>
   <item nodeId="node-260">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2047,8 +2335,8 @@
     </children>
   </item>
   <item nodeId="node-261">
-    <command xml:space="preserve">wade</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Beach (south end)&#x000A;You are at the south end of a nice beach. A vast ocean stretches out to the west. This end of the beach is surrounded by rocks, blocking all passage except to the north. &#x000A;&#x000A;The rotting carcass of a mermaid is washed up on the shore here.&#x000A;&#x000A;A canoe in rather poor shape is overturned on the beach.&#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2056,8 +2344,8 @@
     </children>
   </item>
   <item nodeId="node-262">
-    <command xml:space="preserve">cross stream</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at canoe</command>
+    <result xml:space="preserve">The wood making up the canoe has rotted through in a few places, and it looks as thought there might be termites eating away at some parts of it. It will probably never be sea-worthy again.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2065,8 +2353,8 @@
     </children>
   </item>
   <item nodeId="node-263">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the northeast.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">lift canoe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2074,8 +2362,8 @@
     </children>
   </item>
   <item nodeId="node-264">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">move canoe</command>
+    <result xml:space="preserve">You manage to flip over the canoe. Underneath you see an oar.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2083,8 +2371,8 @@
     </children>
   </item>
   <item nodeId="node-265">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">South Stream Bank&#x000A;You are at the southern bank of the stream. The water flows steadily to the west, and it looks fairly shallow at this point. The trees of the forest surround you, and you see the forest continues on the north side of the stream. There appears to be a shallow sand bar in the stream to the north; you might be able to wade across to it. You see there is enough of a bank for you to travel to the east or southwest along the stream edge. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take oar</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;Atari tugs at the mermaid carcass.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2092,8 +2380,8 @@
     </children>
   </item>
   <item nodeId="node-266">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">throw oar</command>
+    <result xml:space="preserve">The wooden oar is too heavy to throw.&#x000A;&#x000A;Atari grabs onto the mermaid carcass and begins tugging.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2101,8 +2389,8 @@
     </children>
   </item>
   <item nodeId="node-267">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take oar</command>
+    <result xml:space="preserve">The wooden oar is rather bulky, so it's going to be difficult to carry it while you're holding on to the wooden oar.&#x000A;&#x000A;Atari growls as she pulls at the mermaid carcass.&#x000A;Atari manages to pull off a mermaid scale!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2110,8 +2398,8 @@
     </children>
   </item>
   <item nodeId="node-268">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You walk carefully along the edge of the stream.&#x000A;&#x000A;Stream Bend&#x000A;You are on a rocky bank of the stream, which flows from the northeast to the west. In the northeast, you see that the stream flows from a magnificent waterfall. The rock formations in the water redirect the fast flow of the stream into several small pools, where the water stagnates and reeds grow out of it like there's no tomorrow. You detect the faint smell of decaying matter here. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take scale</command>
+    <result xml:space="preserve">That seems to belong to Atari.&#x000A;&#x000A;Atari happily chews on the mermaid scale.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2119,8 +2407,8 @@
     </children>
   </item>
   <item nodeId="node-269">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari, drop it</command>
+    <result xml:space="preserve">Atari drops the mermaid scale.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2128,8 +2416,8 @@
     </children>
   </item>
   <item nodeId="node-270">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take scale</command>
+    <result xml:space="preserve">As you reach for the mermaid scale, Atari leaps in quickly and grabs it first.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2137,8 +2425,8 @@
     </children>
   </item>
   <item nodeId="node-271">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">atari, drop it</command>
+    <result xml:space="preserve">Atari drops the mermaid scale.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2146,8 +2434,8 @@
     </children>
   </item>
   <item nodeId="node-272">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;You can also see a bovine bone here.&#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take scale</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2155,8 +2443,8 @@
     </children>
   </item>
   <item nodeId="node-273">
-    <command xml:space="preserve">take atari</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2164,8 +2452,8 @@
     </children>
   </item>
   <item nodeId="node-274">
-    <command xml:space="preserve">enter shack</command>
-    <result xml:space="preserve">You'll have to get closer first. Try going west.&#x000A;&#x000A;Atari wriggles free of your grasp.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look scale</command>
+    <result xml:space="preserve">You see nothing special about the mermaid scale.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2173,8 +2461,8 @@
     </children>
   </item>
   <item nodeId="node-275">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You could wade across the stream, but the shore on the other side looks to be too covered in vegetation for there to be anywhere for you to go. Maybe there is a place further east where you can wade across the stream.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2182,8 +2470,8 @@
     </children>
   </item>
   <item nodeId="node-276">
-    <command xml:space="preserve">enter shack</command>
-    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is open. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;Atari arrives from the outside.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2191,8 +2479,8 @@
     </children>
   </item>
   <item nodeId="node-277">
-    <command xml:space="preserve">w. close door</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;You close the shabby door.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Narrow Forest Path&#x000A;You are in the midst of a dense forest, on a narrow path. The path heads off toward a field in the northeast, and to the west heads deeper into the woods. You can hear birds chirping in the trees, and the sound of rushing water nearby. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2200,8 +2488,8 @@
     </children>
   </item>
   <item nodeId="node-278">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2209,8 +2497,8 @@
     </children>
   </item>
   <item nodeId="node-279">
-    <command xml:space="preserve">s. close door</command>
-    <result xml:space="preserve">(first opening the door of the shack)&#x000A;&#x000A;West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the inside.&#x000A;&#x000A;You close the shabby door.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2218,8 +2506,8 @@
     </children>
   </item>
   <item nodeId="node-280">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2227,7 +2515,7 @@
     </children>
   </item>
   <item nodeId="node-281">
-    <command xml:space="preserve">n</command>
+    <command xml:space="preserve">e</command>
     <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -2236,8 +2524,8 @@
     </children>
   </item>
   <item nodeId="node-282">
-    <command xml:space="preserve">enter shack</command>
-    <result xml:space="preserve">(first opening the door of the shack)&#x000A;&#x000A;Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is open. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;Atari arrives from the outside.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2245,8 +2533,8 @@
     </children>
   </item>
   <item nodeId="node-283">
-    <command xml:space="preserve">atari, stay</command>
-    <result xml:space="preserve">Atari does not respond.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2254,8 +2542,8 @@
     </children>
   </item>
   <item nodeId="node-284">
-    <command xml:space="preserve">stari stop</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2263,8 +2551,8 @@
     </children>
   </item>
   <item nodeId="node-285">
-    <command xml:space="preserve">atari stop</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2272,8 +2560,8 @@
     </children>
   </item>
   <item nodeId="node-286">
-    <command xml:space="preserve">atari, stop</command>
-    <result xml:space="preserve">Atari does not respond.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2281,8 +2569,8 @@
     </children>
   </item>
   <item nodeId="node-287">
-    <command xml:space="preserve">atari, sit</command>
-    <result xml:space="preserve">Atari sits down.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2290,8 +2578,8 @@
     </children>
   </item>
   <item nodeId="node-288">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the inside.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2299,8 +2587,8 @@
     </children>
   </item>
   <item nodeId="node-289">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2308,8 +2596,8 @@
     </children>
   </item>
   <item nodeId="node-290">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">Narrow Forest Path&#x000A;You are in the midst of a dense forest, on a narrow path. The path heads off toward a field in the northeast, and to the west heads deeper into the woods. You can hear birds chirping in the trees, and the sound of rushing water nearby. &#x000A;&#x000A;Atari arrives from the northeast.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2317,8 +2605,8 @@
     </children>
   </item>
   <item nodeId="node-291">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2326,8 +2614,8 @@
     </children>
   </item>
   <item nodeId="node-292">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the east.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2335,8 +2623,8 @@
     </children>
   </item>
   <item nodeId="node-293">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Beach (south end)&#x000A;You are at the south end of a nice beach. A vast ocean stretches out to the west. This end of the beach is surrounded by rocks, blocking all passage except to the north. &#x000A;&#x000A;The rotting carcass of a mermaid is washed up on the shore here.&#x000A;&#x000A;A canoe in rather poor shape is overturned on the beach.&#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Narrow Forest Path&#x000A;You are in the midst of a dense forest, on a narrow path. The path heads off toward a field in the northeast, and to the west heads deeper into the woods. You can hear birds chirping in the trees, and the sound of rushing water nearby. &#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2344,8 +2632,8 @@
     </children>
   </item>
   <item nodeId="node-294">
-    <command xml:space="preserve">look at canoe</command>
-    <result xml:space="preserve">The wood making up the canoe has rotted through in a few places, and it looks as thought there might be termites eating away at some parts of it. It will probably never be sea-worthy again.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the southwest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2353,8 +2641,8 @@
     </children>
   </item>
   <item nodeId="node-295">
-    <command xml:space="preserve">lift canoe</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2362,8 +2650,8 @@
     </children>
   </item>
   <item nodeId="node-296">
-    <command xml:space="preserve">move canoe</command>
-    <result xml:space="preserve">You manage to flip over the canoe. Underneath you see an oar.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;You can also see a bovine bone here.&#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2371,8 +2659,8 @@
     </children>
   </item>
   <item nodeId="node-297">
-    <command xml:space="preserve">take oar</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;Atari tugs at the mermaid carcass.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2380,8 +2668,8 @@
     </children>
   </item>
   <item nodeId="node-298">
-    <command xml:space="preserve">throw oar</command>
-    <result xml:space="preserve">The wooden oar is too heavy to throw.&#x000A;&#x000A;Atari grabs onto the mermaid carcass and begins tugging.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take bone</command>
+    <result xml:space="preserve">(the bovine bone)&#x000A;As you reach for the bovine bone, Atari leaps in quickly and grabs it first.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2389,8 +2677,8 @@
     </children>
   </item>
   <item nodeId="node-299">
-    <command xml:space="preserve">take oar</command>
-    <result xml:space="preserve">The wooden oar is rather bulky, so it's going to be difficult to carry it while you're holding on to the wooden oar.&#x000A;&#x000A;Atari growls as she pulls at the mermaid carcass.&#x000A;Atari manages to pull off a mermaid scale!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari licks the surface of the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2398,8 +2686,8 @@
     </children>
   </item>
   <item nodeId="node-300">
-    <command xml:space="preserve">take scale</command>
-    <result xml:space="preserve">That seems to belong to Atari.&#x000A;&#x000A;Atari happily chews on the mermaid scale.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari gnaws at the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2407,8 +2695,8 @@
     </children>
   </item>
   <item nodeId="node-301">
-    <command xml:space="preserve">atari, drop it</command>
-    <result xml:space="preserve">Atari drops the mermaid scale.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2416,8 +2704,8 @@
     </children>
   </item>
   <item nodeId="node-302">
-    <command xml:space="preserve">take scale</command>
-    <result xml:space="preserve">As you reach for the mermaid scale, Atari leaps in quickly and grabs it first.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2425,8 +2713,8 @@
     </children>
   </item>
   <item nodeId="node-303">
-    <command xml:space="preserve">atari, drop it</command>
-    <result xml:space="preserve">Atari drops the mermaid scale.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2434,8 +2722,8 @@
     </children>
   </item>
   <item nodeId="node-304">
-    <command xml:space="preserve">take scale</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari happily chews on the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2443,8 +2731,8 @@
     </children>
   </item>
   <item nodeId="node-305">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Beach (north end)&#x000A;You are at the north end of a nice beach. To the west, a vast ocean stretches out before you. The stream from the forest empties into the ocean just north of you. The beach extends to the south. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari licks the surface of the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2452,17 +2740,14 @@
     </children>
   </item>
   <item nodeId="node-306">
-    <command xml:space="preserve">look scale</command>
-    <result xml:space="preserve">You see nothing special about the mermaid scale.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;Atari drops the bovine bone.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-307"/>
-    </children>
   </item>
   <item nodeId="node-307">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You could wade across the stream, but the shore on the other side looks to be too covered in vegetation for there to be anywhere for you to go. Maybe there is a place further east where you can wade across the stream.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take helmet</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2471,7 +2756,7 @@
   </item>
   <item nodeId="node-308">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Path by Stream&#x000A;The forest path continues west-east. There is a stream just north of the path with water flowing to the west. It looks as though you could hike down to the stream here. The trees seem to be thinning out to the west. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2479,8 +2764,8 @@
     </children>
   </item>
   <item nodeId="node-309">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Narrow Forest Path&#x000A;You are in the midst of a dense forest, on a narrow path. The path heads off toward a field in the northeast, and to the west heads deeper into the woods. You can hear birds chirping in the trees, and the sound of rushing water nearby. &#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2488,26 +2773,24 @@
     </children>
   </item>
   <item nodeId="node-310">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-311"/>
-    </children>
   </item>
   <item nodeId="node-311">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">You can issue commands to the game by starting with a verb. For instance, typing EXAMINE THE DOOHICKEY will cause the game to report the results of such an examination. (You needn't type in uppercase, but I will use uppercase to distinguish the commands you may type in.) You may wish to try this now by typing EXAMINE SHELVES. &#x000A;&#x000A;Other useful commands are SEARCH (something), TAKE (an object), DROP (something you are carrying). Typing LOOK by itself will give you a description of the area you are currently in. A good strategy is to type LOOK to get the area description, and then use EXAMINE on the nouns that you see in the description. Many verbs have synonyms, for example you can type LOOK AT (something) instead of EXAMINE (something). Also, some commonly used verbs can be abbreviated, for examine EXAMINE SHELVES can be abbreviated with X SHELVES. &#x000A;&#x000A;You are not currently in a room with exits, but when you are you can move about with a command like GO SOUTH, SOUTH, or just S. Other directions can be abbreviated as well with a command like NW for northwest, etc.&#x000A;&#x000A;Finally, you can type INVENTORY or just I to get a list of items that you are carrying. Also, if you want to repeat the last command, you can type AGAIN or just G. &#x000A;&#x000A;To get help on a specific topic, type HELP (topic). The following help topics are supported: &#x000A;    HELP introduction &#x000A;    HELP objects &#x000A;    HELP conversation &#x000A;    HELP saving &#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-312"/>
+      <child nodeId="node-322"/>
     </children>
   </item>
   <item nodeId="node-312">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter mirror</command>
+    <result xml:space="preserve">You step through the mirror, and you feel a powerful force pulling you through. After being momentarily blinded, you find yourself in... &#x000A;&#x000A;Basement&#x000A;You appear to be in some sort of Basement, lit solely by a lantern on a shelf. Shelves line the east and north walls, but they are mostly empty. A beautiful mirror stands against the south wall. A ladder pokes through the ceiling in the corner of the room.&#x000A;&#x000A;On the shelves are journal page 2 and a brass lantern.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2515,8 +2798,8 @@
     </children>
   </item>
   <item nodeId="node-313">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">journal page 2: Taken.&#x000A;&#x000A;brass lantern: Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2524,8 +2807,8 @@
     </children>
   </item>
   <item nodeId="node-314">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2533,8 +2816,8 @@
     </children>
   </item>
   <item nodeId="node-315">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;On the kitchen counter is a piece of beef jerky.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2542,8 +2825,8 @@
     </children>
   </item>
   <item nodeId="node-316">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">lay on bed</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2551,8 +2834,8 @@
     </children>
   </item>
   <item nodeId="node-317">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine bed</command>
+    <result xml:space="preserve">It's a twin-sized bed in rather poor condition, although the mattress does not look too uncomfortable.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2560,8 +2843,8 @@
     </children>
   </item>
   <item nodeId="node-318">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari stretches.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go on bed</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2569,8 +2852,8 @@
     </children>
   </item>
   <item nodeId="node-319">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">You sits down.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2578,8 +2861,8 @@
     </children>
   </item>
   <item nodeId="node-320">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">sit on bed</command>
+    <result xml:space="preserve">You get onto the creaky bed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2587,290 +2870,14 @@
     </children>
   </item>
   <item nodeId="node-321">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-322"/>
-    </children>
-  </item>
-  <item nodeId="node-322">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari playfully nips at your heels.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-323"/>
-    </children>
-  </item>
-  <item nodeId="node-323">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-324"/>
-    </children>
-  </item>
-  <item nodeId="node-324">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari growls playfully.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-325"/>
-    </children>
-  </item>
-  <item nodeId="node-325">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Narrow Forest Path&#x000A;You are in the midst of a dense forest, on a narrow path. The path heads off toward a field in the northeast, and to the west heads deeper into the woods. You can hear birds chirping in the trees, and the sound of rushing water nearby. &#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-326"/>
-    </children>
-  </item>
-  <item nodeId="node-326">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">West Field&#x000A;You are in the west end of a large, grassy field, surrounded by tall trees. Nestled against the trees at the north end, you see a dilapidated shack. A narrow path goes southwest into the trees. &#x000A;&#x000A;Atari arrives from the southwest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-327"/>
-    </children>
-  </item>
-  <item nodeId="node-327">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-328"/>
-    </children>
-  </item>
-  <item nodeId="node-328">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">East Field&#x000A;You are at the east end of a large, grassy field. Far to the west in the distance you see a small shack. A narrow path cuts through the trees to the northeast. To the south, another path goes into the forest. &#x000A;&#x000A;The remains of a large cow have been rotting here for quite a while, so that only a skeleton is left.&#x000A;&#x000A;You can also see a bovine bone here.&#x000A;&#x000A;Atari arrives from the west.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-329"/>
-    </children>
-  </item>
-  <item nodeId="node-329">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-330"/>
-    </children>
-  </item>
-  <item nodeId="node-330">
-    <command xml:space="preserve">take bone</command>
-    <result xml:space="preserve">(the bovine bone)&#x000A;As you reach for the bovine bone, Atari leaps in quickly and grabs it first.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-331"/>
-    </children>
-  </item>
-  <item nodeId="node-331">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari licks the surface of the bovine bone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-332"/>
-    </children>
-  </item>
-  <item nodeId="node-332">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari gnaws at the bovine bone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-333"/>
-    </children>
-  </item>
-  <item nodeId="node-333">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-334"/>
-    </children>
-  </item>
-  <item nodeId="node-334">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Outside the Tower&#x000A;You stand at the base of a large stone tower. The woods surround you in all directions, except for the lone path going to the north. &#x000A;&#x000A;Atari arrives from the north.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-335"/>
-    </children>
-  </item>
-  <item nodeId="node-335">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;Atari arrives from the south.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-336"/>
-    </children>
-  </item>
-  <item nodeId="node-336">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari happily chews on the bovine bone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-337"/>
-    </children>
-  </item>
-  <item nodeId="node-337">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">The trees are too thick to proceed in that direction.&#x000A;&#x000A;Atari licks the surface of the bovine bone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-338"/>
-    </children>
-  </item>
-  <item nodeId="node-338">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Creepy Forest Path&#x000A;You are on a north-south path through the woods. The trees in this area are twisted and creepy, and the canopy blocks all but a few slivers of light from above. &#x000A;&#x000A;You can see Atari here.&#x000A;&#x000A;Atari drops the bovine bone.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-134">
-    <command xml:space="preserve">take helmet</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-135"/>
-    </children>
-  </item>
-  <item nodeId="node-135">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-136"/>
-    </children>
-  </item>
-  <item nodeId="node-136">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-137"/>
-    </children>
-  </item>
-  <item nodeId="node-137">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-155">
-    <command xml:space="preserve">help</command>
-    <result xml:space="preserve">You can issue commands to the game by starting with a verb. For instance, typing EXAMINE THE DOOHICKEY will cause the game to report the results of such an examination. (You needn't type in uppercase, but I will use uppercase to distinguish the commands you may type in.) You may wish to try this now by typing EXAMINE SHELVES. &#x000A;&#x000A;Other useful commands are SEARCH (something), TAKE (an object), DROP (something you are carrying). Typing LOOK by itself will give you a description of the area you are currently in. A good strategy is to type LOOK to get the area description, and then use EXAMINE on the nouns that you see in the description. Many verbs have synonyms, for example you can type LOOK AT (something) instead of EXAMINE (something). Also, some commonly used verbs can be abbreviated, for examine EXAMINE SHELVES can be abbreviated with X SHELVES. &#x000A;&#x000A;You are not currently in a room with exits, but when you are you can move about with a command like GO SOUTH, SOUTH, or just S. Other directions can be abbreviated as well with a command like NW for northwest, etc.&#x000A;&#x000A;Finally, you can type INVENTORY or just I to get a list of items that you are carrying. Also, if you want to repeat the last command, you can type AGAIN or just G. &#x000A;&#x000A;To get help on a specific topic, type HELP (topic). The following help topics are supported: &#x000A;    HELP introduction &#x000A;    HELP objects &#x000A;    HELP conversation &#x000A;    HELP saving &#x000A;&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-156"/>
-    </children>
-  </item>
-  <item nodeId="node-156">
-    <command xml:space="preserve">enter mirror</command>
-    <result xml:space="preserve">You step through the mirror, and you feel a powerful force pulling you through. After being momentarily blinded, you find yourself in... &#x000A;&#x000A;Basement&#x000A;You appear to be in some sort of Basement, lit solely by a lantern on a shelf. Shelves line the east and north walls, but they are mostly empty. A beautiful mirror stands against the south wall. A ladder pokes through the ceiling in the corner of the room.&#x000A;&#x000A;On the shelves are journal page 2 and a brass lantern.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-157"/>
-    </children>
-  </item>
-  <item nodeId="node-157">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">journal page 2: Taken.&#x000A;&#x000A;brass lantern: Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-158"/>
-    </children>
-  </item>
-  <item nodeId="node-158">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-159"/>
-    </children>
-  </item>
-  <item nodeId="node-159">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">Inside the Shack&#x000A;You are inside a dilapidated shack. There is a rather shabby door on the south side, which is closed. This appears to be someone's actual living quarters, as the furnishings are rather complete. It's only one room but there is a kitchen space for cooking as well as a creaky bed. A desk is in the corner, covered in stacks of paper. A ladder pokes through a hole in the floor.&#x000A;&#x000A;On the kitchen counter is a piece of beef jerky.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-160"/>
-    </children>
-  </item>
-  <item nodeId="node-160">
-    <command xml:space="preserve">lay on bed</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-161"/>
-    </children>
-  </item>
-  <item nodeId="node-161">
-    <command xml:space="preserve">examine bed</command>
-    <result xml:space="preserve">It's a twin-sized bed in rather poor condition, although the mattress does not look too uncomfortable.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-162"/>
-    </children>
-  </item>
-  <item nodeId="node-162">
-    <command xml:space="preserve">go on bed</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-163"/>
-    </children>
-  </item>
-  <item nodeId="node-163">
-    <command xml:space="preserve">sit</command>
-    <result xml:space="preserve">You sits down.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-164"/>
-    </children>
-  </item>
-  <item nodeId="node-164">
-    <command xml:space="preserve">sit on bed</command>
-    <result xml:space="preserve">You get onto the creaky bed.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-165"/>
-    </children>
-  </item>
-  <item nodeId="node-165">
     <command xml:space="preserve">have sex</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-322">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Under the stairs&#x000A;You are in the secret room beneath the stairs in your grandfather's house. Shelves line the walls here, with a lot of junk on them. Your grandfather was an avid collector of antiques, but you can tell from the vast array of broken clocks and watches, scratched dishes, tarnished silverware and other junk before you that he doesn't have quite the eye for valuable antiques. There is so much junk that it would take a thorough search to find anything useful. One item does catch your eye, however, the full-length, oval-shaped mirror with a beautiful stand in the corner.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
